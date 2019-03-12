@@ -26,3 +26,7 @@ MBeacon: Privacy-Preserving Beacons for DNA Methylation Data, **NDSS 2019** [[pd
 ## Homomorphic Encryption
 
 ## Differential Privacy
+
+## Privacy-Preserving Machine Learning
+
+## Secure Aggregation for Federated Machine Learning
