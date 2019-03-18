@@ -15,6 +15,8 @@ Top Conferences [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_sta
 | EUROCRYPT : International Conference on Theory and Applications of Cryptographic Techniques (EUROCRYPT) | EUROCRYPT    |
 | CRYPTO : International Cryptology Conference (CRYPTO)                                                   | CRYPTO       |
 
+**NEW NDSS 2019 Accepted Papers:** [https://www.ndss-symposium.org/ndss2019/accepted-papers/](https://www.ndss-symposium.org/ndss2019/accepted-papers/)
+
 ## Genomic Privacy
 
 A pretty and well-organised resource website: [genomicprivacy.org](https://genomeprivacy.org/publications/)
