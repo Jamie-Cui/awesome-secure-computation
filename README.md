@@ -30,10 +30,17 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 
 ### Multiparty Computation
 
+
 ### Homomorphic Encryption
 
-Computing Arbitrary Functions of Encrypted Data, Gen09, **Communications of the ACM 2009** [[pdf]](https://crypto.stanford.edu/craig/easy-fhe.pdf)
+- Computing Arbitrary Functions of Encrypted Data, Gen09, **Communications of the ACM 2009** [[pdf]](https://crypto.stanford.edu/craig/easy-fhe.pdf)
+- Fully Homomorphic Encryption without Bootstrapping, BGV11, [[pdf]](https://eprint.iacr.org/2011/277.pdf)
+- Somewhat Practical Fully Homomorphic Encryption, BFV12, [[pdf]](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf)
+- Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, GSW13, [[pdf]](https://eprint.iacr.org/2013/340.pdf)
+- Homomorphic Encryption for Arithmetic of Approximate Numbers, CKSS16, [[pdf]](https://eprint.iacr.org/2016/421.pdf)
 
 ### Differential Privacy
 
 ### Machine Learning related
+
+- Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
