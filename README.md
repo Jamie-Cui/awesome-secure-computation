@@ -2,17 +2,6 @@
 
 Paper summary for cryptography, either [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) or [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy) realated. Here's a good place to ask questions, or answering (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/)
 
-In the below I listed severeal top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
-
-| Conference Name                                                                                         | Abbreviation |
-|---------------------------------------------------------------------------------------------------------|--------------|
-| SP : IEEE Symposium on Security and Privacy                                                             | S&P          |
-| ACM Conference on Computer and Communications Security                                                  | CCS          |
-| USENIX Security : USENIX Security Symposium                                                             | Security     |
-| NDSS : Network and Distributed System Security Symposium                                                | NDSS         |
-| EUROCRYPT : International Conference on Theory and Applications of Cryptographic Techniques (EUROCRYPT) | EUROCRYPT    |
-| CRYPTO : International Cryptology Conference (CRYPTO)                                                   | CRYPTO       |
-
 **>> [Recent news] NEW NDSS 2019 Accepted Papers:** [https://www.ndss-symposium.org/ndss2019/accepted-papers/](https://www.ndss-symposium.org/ndss2019/accepted-papers/)
 
 ### Unclassified papers
@@ -47,3 +36,16 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 ### Machine Learning related
 
 - Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
+
+
+In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
+
+| Conference Name                                                                                         | Abbreviation |
+|---------------------------------------------------------------------------------------------------------|--------------|
+| SP : IEEE Symposium on Security and Privacy                                                             | S&P          |
+| ACM Conference on Computer and Communications Security                                                  | CCS          |
+| USENIX Security : USENIX Security Symposium                                                             | Security     |
+| NDSS : Network and Distributed System Security Symposium                                                | NDSS         |
+| EUROCRYPT : International Conference on Theory and Applications of Cryptographic Techniques (EUROCRYPT) | EUROCRYPT    |
+| CRYPTO : International Cryptology Conference (CRYPTO)                                                   | CRYPTO       |
+
