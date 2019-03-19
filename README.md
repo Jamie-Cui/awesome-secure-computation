@@ -29,7 +29,9 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Privacy-Preserving Search of Similar Patients inGenomic Data, **PPET 2018**,[[pdf]](https://www.petsymposium.org/2018/files/papers/issue4/popets-2018-0034.pdf)
 
 ### Multiparty Computation
-
+- How to play any mental game?, GMW87, [[pdf]](https://dl.acm.org/citation.cfm?id=28420)
+- Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, BGW88, [[pdf]\(ACM\)](https://dl.acm.org/citation.cfm?id=62213)
+- The Round Complexity of Secure Protocols, BMR90, [[pdf]](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
 
 ### Homomorphic Encryption
 
@@ -40,6 +42,7 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, CKSS16, [[pdf]](https://eprint.iacr.org/2016/421.pdf)
 
 ### Differential Privacy
+- Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
 
 ### Machine Learning related
 
