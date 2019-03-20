@@ -35,6 +35,8 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 ### Machine Learning related
 
 - Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
+- DeepSecure: Scalable Provably-Secure Deep Learning, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
+- SecureML: A System for Scalable Privacy-Preserving Machine Learning, [[pdf]](https://eprint.iacr.org/2017/396.pdf)
 
 
 In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
