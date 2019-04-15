@@ -34,7 +34,10 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 
 ### Machine Learning related
 
-- Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
+- Federated Optimization: Distributed Machine Learning for On-Device Intelligence, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.02527.pdf)
+- Federated Learning: Strategies for improving communication efficiency, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.05492.pdf)
+- Federated Learning of Deep Networks using Model Averaging, **2016 Google AI** [[pdf]](https://pdfs.semanticscholar.org/8b41/9080cd37bdc30872b76f405ef6a93eae3304.pdf)
+- Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **2017 Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
 - DeepSecure: Scalable Provably-Secure Deep Learning, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
 - SecureML: A System for Scalable Privacy-Preserving Machine Learning, [[pdf]](https://eprint.iacr.org/2017/396.pdf)
 
