@@ -28,12 +28,13 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Somewhat Practical Fully Homomorphic Encryption, BFV12, [[pdf]](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf)
 - Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, GSW13, [[pdf]](https://eprint.iacr.org/2013/340.pdf)
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, CKSS16, [[pdf]](https://eprint.iacr.org/2016/421.pdf)
+- A Survey on Homomorphic Encryption Schemes: Theory and Implementation, **ACM CSUR 2018** [[pdf]](https://arxiv.org/pdf/1704.03578.pdf)
 
 ### Differential Privacy
 - Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
 
 ### Machine Learning related
-
+- Deep Learning with Differential Privacy, **CCS 2016** [[pdf]](https://arxiv.org/pdf/1607.00133.pdf)
 - Federated Optimization: Distributed Machine Learning for On-Device Intelligence, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.02527.pdf)
 - Federated Learning: Strategies for improving communication efficiency, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.05492.pdf)
 - Federated Learning of Deep Networks using Model Averaging, **2016 Google AI** [[pdf]](https://pdfs.semanticscholar.org/8b41/9080cd37bdc30872b76f405ef6a93eae3304.pdf)
