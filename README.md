@@ -5,7 +5,7 @@ Paper summary for cryptography, either [*Multiparty Computation*](https://en.wik
 **>> [Recent news] NEW NDSS 2019 Accepted Papers:** [https://www.ndss-symposium.org/ndss2019/accepted-papers/](https://www.ndss-symposium.org/ndss2019/accepted-papers/)
 
 ### Unclassified papers
-- Covert security with public verifiability: faster, leaner, and simpler, Hong19, **NDSS2019** [[pdf]](https://eprint.iacr.org/2018/1108.pdf)
+- Covert security with public verifiability: faster, leaner, and simpler, Hong19, **NDSS 2019** [[pdf]](https://eprint.iacr.org/2018/1108.pdf)
 - Calling out Cheaters: Covert Security With Public Verifiability, Asharov12, **ASIACRYPT 2012**, [[pdf]](https://eprint.iacr.org/2012/708.pdf)
 - Security Against Covert Adversaries: Efficient Protocols for Realistic Adversaries, Aumann09, **Theory of Cryptography(Book)**, [[pdf]](https://eprint.iacr.org/2007/060.pdf)
 
@@ -39,6 +39,7 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Federated Learning: Strategies for improving communication efficiency, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.05492.pdf)
 - Federated Learning of Deep Networks using Model Averaging, **2016 Google AI** [[pdf]](https://pdfs.semanticscholar.org/8b41/9080cd37bdc30872b76f405ef6a93eae3304.pdf)
 - Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **2017 Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
+- Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, **IEEE TIFS 2018** [[pdf]](https://eprint.iacr.org/2017/715.pdf)
 - DeepSecure: Scalable Provably-Secure Deep Learning, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
 - SecureML: A System for Scalable Privacy-Preserving Machine Learning, [[pdf]](https://eprint.iacr.org/2017/396.pdf)
 
