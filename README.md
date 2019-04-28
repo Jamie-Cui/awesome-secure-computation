@@ -1,6 +1,6 @@
-# Paper Summary for some Cryptography
+# awesome-crypto [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Paper summary for cryptography, either [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) or [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy) realated. Here's a good place to ask questions, or answering (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/)
+This repo is a paper summary for cryptography, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). Here's a good place to ask questions related to cryptography, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/)
 
 **>> [Recent news] NEW NDSS 2019 Accepted Papers:** [https://www.ndss-symposium.org/ndss2019/accepted-papers/](https://www.ndss-symposium.org/ndss2019/accepted-papers/)
 
