@@ -14,7 +14,12 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 A pretty and well-organised resource website: [genomicprivacy.org](https://genomeprivacy.org/publications/)
 
 - MBeacon: Privacy-Preserving Beacons for DNA Methylation Data, **NDSS 2019**, [[pdf]](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-2_Hagestedt_paper.pdf)
+- Privacy Preserving Genome Wide Asssociation Study is Practical, **BMC Bioinformatics 2018**, [[pdf]](https://eprint.iacr.org/2017/955.pdf)
 - Privacy-Preserving Search of Similar Patients inGenomic Data, **PPET 2018**,[[pdf]](https://www.petsymposium.org/2018/files/papers/issue4/popets-2018-0034.pdf)
+- Routes for breaching and protecting genetic privacy, **Nature Reviews Genetics 2014**, [[pdf]](https://www.ncbi.nlm.nih.gov/pubmed/24805122)
+- Resolving Individuals Contributing Trace Amounts of DNA to Highly Complex Mixtures Using High-Density SNP Genotyping Microarrays, **PLoS 2008**, [[pdf]](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000167)
+
+
 
 ### Multiparty Computation
 - How to play any mental game?, GMW87, [[pdf]](https://dl.acm.org/citation.cfm?id=28420)
