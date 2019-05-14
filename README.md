@@ -37,6 +37,7 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 
 ### Differential Privacy
 - Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
+- Privacy Integrated Queries:An Extensible Platform for Privacy-Preserving Data Analysis, **Privacy Accountant**, [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/pinq-CACM.pdf)
 
 ### Privacy Preserving Machine Learning
 - Deep Learning with Differential Privacy, *Martín Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang*, **CCS 2016** [[pdf]](https://arxiv.org/pdf/1607.00133.pdf)
