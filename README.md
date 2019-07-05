@@ -52,12 +52,12 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 
 In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
 
-| Conference Name                                                                                         | Abbreviation |
-|---------------------------------------------------------------------------------------------------------|--------------|
-| SP : IEEE Symposium on Security and Privacy                                                             | S&P          |
-| ACM Conference on Computer and Communications Security                                                  | CCS          |
-| USENIX Security : USENIX Security Symposium                                                             | Security     |
-| NDSS : Network and Distributed System Security Symposium                                                | NDSS         |
-| EUROCRYPT : International Conference on Theory and Applications of Cryptographic Techniques (EUROCRYPT) | EUROCRYPT    |
-| CRYPTO : International Cryptology Conference (CRYPTO)                                                   | CRYPTO       |
+| Conference Name                                                                     | Abbreviation    |Time|
+|-------------------------------------------------------------------------------------|-----------------|----|
+| IEEE Symposium on Security and Privacy                                              | S&P             |MAY 20-22|
+| ACM Conference on Computer and Communications Security                              | CCS             |November 11-15|
+| USENIX Security Symposium                                                           | USENIX Security |August 14–16    |
+| Network and Distributed System Security Symposium                                   | NDSS            |June 23-25    |
+| International Conference on Theory and Applications of Cryptographic Techniques     | EUROCRYPT       |May 19-23    |
+| International Cryptology Conference                                                 | CRYPTO          |August 18-22    |
 
