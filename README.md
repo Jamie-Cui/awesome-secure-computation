@@ -52,12 +52,21 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 
 In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
 
-| Conference Name                                                                     | Abbreviation    |Time|
-|-------------------------------------------------------------------------------------|-----------------|----|
-| IEEE Symposium on Security and Privacy                                              | S&P             |MAY 20-22|
-| ACM Conference on Computer and Communications Security                              | CCS             |November 11-15|
+Here's the main website for this year's conferences!
+- [S&P 2019](https://www.ieee-security.org/TC/SP2019/)
+- [CCS 2019](https://www.sigsac.org/ccs/CCS2019/)
+- [USENIX Security 2019](https://www.usenix.org/conference/usenixsecurity19)
+- [NDSS 2019](https://www.ndss-symposium.org/ndss2019/)
+- [EUROCRYPT 2019](https://eurocrypt.iacr.org/2019/)
+- [CRYPTO 2019](https://crypto.iacr.org/2019/)
+
+| Conference Name                                                                     | Abbreviation    |Time (this year)|
+|-------------------------------------------------------------------------------------|-----------------|----------------|
+| IEEE Symposium on Security and Privacy                                              | S&P             |MAY 20-22       |
+| ACM Conference on Computer and Communications Security                              | CCS             |November 11-15  |
 | USENIX Security Symposium                                                           | USENIX Security |August 14–16    |
-| Network and Distributed System Security Symposium                                   | NDSS            |June 23-25    |
-| International Conference on Theory and Applications of Cryptographic Techniques     | EUROCRYPT       |May 19-23    |
+| Network and Distributed System Security Symposium                                   | NDSS            |June 23-25      |
+| International Conference on Theory and Applications of Cryptographic Techniques     | EUROCRYPT       |May 19-23       |
 | International Cryptology Conference                                                 | CRYPTO          |August 18-22    |
+
 
