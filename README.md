@@ -25,7 +25,7 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - How to play any mental game?, GMW87, [[pdf]](https://dl.acm.org/citation.cfm?id=28420)
 - Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, BGW88, [[pdf]\(ACM\)](https://dl.acm.org/citation.cfm?id=62213)
 - The Round Complexity of Secure Protocols, BMR90, [[pdf]](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
-- **Degree 2 is Complete for the Round-Complexity of Malicious MPC**, **EUROCRYPT 2019**, [[pdf]]
+- **Degree 2 is Complete for the Round-Complexity of Malicious MPC**, **EUROCRYPT 2019**, [[pdf]](https://eprint.iacr.org/2019/200.pdf)
 - **SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension**, **Crypto 2019**, [[pdf]](https://eprint.iacr.org/2019/634.pdf)
 - **SoK: General Purpose Compilers for Secure Multi-Party Computation**, **SP 2019**, [[pdf]](https://marsella.github.io/static/mpcsok.pdf)
 
