@@ -25,6 +25,9 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - How to play any mental game?, GMW87, [[pdf]](https://dl.acm.org/citation.cfm?id=28420)
 - Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, BGW88, [[pdf]\(ACM\)](https://dl.acm.org/citation.cfm?id=62213)
 - The Round Complexity of Secure Protocols, BMR90, [[pdf]](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
+- **Degree 2 is Complete for the Round-Complexity of Malicious MPC**, **EUROCRYPT 2019**, [[pdf]]
+- **SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension**, **Crypto 2019**, [[pdf]](https://eprint.iacr.org/2019/634.pdf)
+- **SoK: General Purpose Compilers for Secure Multi-Party Computation**, **SP 2019**, [[pdf]](https://marsella.github.io/static/mpcsok.pdf)
 
 ### Homomorphic Encryption
 
@@ -34,6 +37,9 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, GSW13, [[pdf]](https://eprint.iacr.org/2013/340.pdf)
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, CKSS16, [[pdf]](https://eprint.iacr.org/2016/421.pdf)
 - A Survey on Homomorphic Encryption Schemes: Theory and Implementation, **ACM CSUR 2018** [[pdf]](https://arxiv.org/pdf/1704.03578.pdf)
+- **Improved Bootstrapping for Approximate Homomorphic Encryption**, **EUROCRYPT 2019** [[pdf]](https://eprint.iacr.org/2018/1043.pdfhttps://eprint.iacr.org/2018/1043.pdf)
+- **Homomorphic Secret Sharing from Lattices Without FHE**, **EUROCRYPT 2019** [[pdf]](https://eprint.iacr.org/2019/129.pdf)
+
 
 ### Differential Privacy
 - Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
@@ -48,7 +54,10 @@ A pretty and well-organised resource website: [genomicprivacy.org](https://genom
 - Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, **IEEE TIFS 2018** [[pdf]](https://eprint.iacr.org/2017/715.pdf)
 - DeepSecure: Scalable Provably-Secure Deep Learning, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
 - SecureML: A System for Scalable Privacy-Preserving Machine Learning, [[pdf]](https://eprint.iacr.org/2017/396.pdf)
-
+- **XONN: XNOR-based Oblivious Deep Neural Network Inference**, **Usenix 2019**, [[pdf]](https://eprint.iacr.org/2019/171.pdf)
+- **[off-topic-but-interesting] Comprehensive Privacy Analysis of Deep Learning**, **SP 2019**, [[pdf]](https://arxiv.org/pdf/1812.00910.pdf)
+- **[off-topic-but-interesting] Exploiting Unintended Feature Leakage in Collaborative Learning**, **SP 2019**, [[pdf]](https://arxiv.org/pdf/1805.04049.pdf)
+- **[off-topic-but-interesting] ML-Leaks: Model and Data Independent Membership Inference Attacks and Defenses on Machine Learning Models**, **NDSS 2019**, [[pdf]](https://arxiv.org/pdf/1806.01246.pdf)
 
 In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
 
