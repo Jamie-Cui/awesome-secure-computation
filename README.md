@@ -20,31 +20,32 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 
 #### Recent Research
 
-- A Survey on Homomorphic Encryption Schemes: Theory and Implementation, **ACM CSUR 2018** [[pdf]](https://arxiv.org/pdf/1704.03578.pdf)
 - Endemic Oblivious Transfer, **#OT**, [[pdf]](https://eprint.iacr.org/2019/706)
-- Efficient Publicly Verifiable 2PC over a Blockchain with Applications to Financially-Secure Computations, **#MPC #Blockchains**, [[pdf]](http://homes.sice.indiana.edu/yh33/mypub/pvc.pdf)
+- A Survey on Homomorphic Encryption Schemes: Theory and Implementation, **#Survey #HE** [[pdf]](https://arxiv.org/pdf/1704.03578.pdf)
+- Improved Bootstrapping for Approximate Homomorphic Encryption, **#HE**, [[pdf]](https://eprint.iacr.org/2018/1043.pdfhttps://eprint.iacr.org/2018/1043.pdf)
+- Homomorphic Secret Sharing from Lattices Without FHE, **#FHE**, [[pdf]](https://eprint.iacr.org/2019/129.pdf)
+- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, **#MPC #PSI**, [[pdf]](https://eprint.iacr.org/2019/634.pdf)
+- SoK: General Purpose Compilers for Secure Multi-Party Computation, **#MPC-Compiler #SoK**, [[pdf]](https://marsella.github.io/static/mpcsok.pdf)
+- Efficient Publicly Verifiable 2PC over a Blockchain with Applications to Financially-Secure Computations, **#Verifiable-2PC-MPC #Blockchains**, [[pdf]](http://homes.sice.indiana.edu/yh33/mypub/pvc.pdf)
 - A High-Assurance Evaluator for Machine-Checked Secure Multiparty Computation, **#PMPC**, [[pdf]](https://eprint.iacr.org/2019/922)
-- HoneyBadgerMPC and AsynchroMix: Practical Asynchronous MPC and its Application to Anonymous Communication, **#MPC**, [[pdf]](https://eprint.iacr.org/2019/883.pdf)
-- Practical Fully Secure Three-Party Computation via Sublinear Distributed Zero-Knowledge Proofs, **#MPC #ZKP**, [[pdf]](https://eprint.iacr.org/2019/1390)
-- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, **#OT#MPC**, [[pdf]](https://eprint.iacr.org/2019/1159)
-- Two-Thirds Honest-Majority MPC for Malicious Adversaries at Almost the Cost of Semi-Honest, **#MPC #SecurityModel**, [[pdf]](https://eprint.iacr.org/2019/658)
-- Efficient MPC via Program Analysis: : A Framework for Efficient Optimal Mixing, **#EfficientMPC**, [[pdf]](https://eprint.iacr.org/2019/651)
 - Reusable Non-Interactive Secure Computation, **#MPC**, [[pdf]](https://eprint.iacr.org/2018/940.pdf)
 - Unconditionally Secure Computation Against Low-Complexity Leakage, **MPC**, [[pdf]](https://eprint.iacr.org/2019/627)
 - Adaptively Secure MPC with Sublinear Communication Complexity, **#MPC**, [[pdf]](https://eprint.iacr.org/2018/1161)
-- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, **#MPC #PSI**, [[pdf]](https://eprint.iacr.org/2019/634.pdf)
-- Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing, **#MPC**, [[pdf]](https://eprint.iacr.org/2019/220)
-- Communication-Efficient Unconditional MPC with Guaranteed Output Delivery, **#MPC**, [[pdf]](https://eprint.iacr.org/2019/646)
-- Degree 2 is Complete for the Round-Complexity of Malicious MPC, **#MaliciousMPC**, [[pdf]](https://eprint.iacr.org/2019/200.pdf)
-- Improved Bootstrapping for Approximate Homomorphic Encryption, **#HE** [[pdf]](https://eprint.iacr.org/2018/1043.pdfhttps://eprint.iacr.org/2018/1043.pdf)
-- Homomorphic Secret Sharing from Lattices Without FHE, **#FHE** [[pdf]](https://eprint.iacr.org/2019/129.pdf)
-- SoK: General Purpose Compilers for Secure Multi-Party Computation, **#MPC #SoK**, [[pdf]](https://marsella.github.io/static/mpcsok.pdf)
-- Covert security with public verifiability: faster, leaner, and simpler, Hong19, **#CovertMPC** [[pdf]](https://eprint.iacr.org/2018/1108.pdf
-
+- Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing, **#MPC**,
+- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, **#Efficient-MPC #OT**, [[pdf]](https://eprint.iacr.org/2019/1159)
+- Communication-Efficient Unconditional MPC with Guaranteed Output Delivery, **#Efficient-MPC**, [[pdf]](https://eprint.iacr.org/2019/646)
+- Efficient MPC via Program Analysis: : A Framework for Efficient Optimal Mixing, **#Efficient-MPC**, [[pdf]](https://eprint.iacr.org/2019/651)
+- HoneyBadgerMPC and AsynchroMix: Practical Asynchronous MPC and its Application to Anonymous Communication, **#Practical-MPC**, [[pdf]](https://eprint.iacr.org/2019/883.pdf)
+- Practical Fully Secure Three-Party Computation via Sublinear Distributed Zero-Knowledge Proofs, **#Practical-MPC #ZKP**, [[pdf]](https://eprint.iacr.org/2019/1390)
+- Two-Thirds Honest-Majority MPC for Malicious Adversaries at Almost the Cost of Semi-Honest, **#MPC #SecurityModel**, [[pdf]](https://eprint.iacr.org/2019/658)
+- Covert security with public verifiability: faster, leaner, and simpler, Hong19, **#Covert-MPC**, [[pdf]](https://eprint.iacr.org/2018/1108.pdf)
+- Degree 2 is Complete for the Round-Complexity of Malicious MPC, **#Malicious-MPC**, [[pdf]](https://eprint.iacr.org/2019/200.pdf)
+ [[pdf]](https://eprint.iacr.org/2019/220)
 
 ### Differential Privacy
 - Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
 - Privacy Integrated Queries:An Extensible Platform for Privacy-Preserving Data Analysis, **#PrivacyAccountant**, [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/pinq-CACM.pdf)
+- Differentially Private Model Publishing for Deep Learning, **#DP#DL**, [[pdf]](https://arxiv.org/pdf/1904.02200.pdf)
 
 ### Machine Learning Related (PPML, AML, FML, etc.)
 
@@ -56,13 +57,20 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 - Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **2017 Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
 
 #### Recent Research
-- Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, **IEEE TIFS 2018** [[pdf]](https://eprint.iacr.org/2017/715.pdf)
-- DeepSecure: Scalable Provably-Secure Deep Learning, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
-- SecureML: A System for Scalable Privacy-Preserving Machine Learning, [[pdf]](https://eprint.iacr.org/2017/396.pdf)
+
+- DeepSecure: Scalable Provably-Secure Deep Learning, **PPDL**, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
+- Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, **#PPDL #HE**, [[pdf]](https://eprint.iacr.org/2017/715.pdf)
+- SecureML: A System for Scalable Privacy-Preserving Machine Learning, **#PPML** [[pdf]](https://eprint.iacr.org/2017/396.pdf)
 - XONN: XNOR-based Oblivious Deep Neural Network Inference, **#PPML #DNN**, [[pdf]](https://eprint.iacr.org/2019/171.pdf)
-- Comprehensive Privacy Analysis of Deep Learning, **#Privacy #ML**, [[pdf]](https://arxiv.org/pdf/1812.00910.pdf)
-- Exploiting Unintended Feature Leakage in Collaborative Learning, **#FML**, [[pdf]](https://arxiv.org/pdf/1805.04049.pdf)
+- Comprehensive Privacy Analysis of Deep Learning, **#PrivacyAnalysis #ML**, [[pdf]](https://arxiv.org/pdf/1812.00910.pdf)
+- Towards practical differentially private convex optimization, **#PPML #DP**, [[pdf]](www.omthakkar.com/papers/TPDPCO.pdf)
+- Helen: Maliciously Secure Coopetitive Learning for Linear Models, **#PPML #FML #Malicious**, [[pdf]](https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf)
+- Exploiting Unintended Feature Leakage in Collaborative Learning, **#AML #FML**, [[pdf]](https://arxiv.org/pdf/1805.04049.pdf)
 - ML-Leaks: Model and Data Independent Membership Inference Attacks and Defenses on Machine Learning Models, **#AML**, [[pdf]](https://arxiv.org/pdf/1806.01246.pdf)
+- Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks, **#AML**, [[pdf]](people.cs.uchicago.edu/~ravenben/publications/pdf/backdoor-sp19.pdf)
+- NIC: Detecting Adversarial Samples with Neural Network Invariant Checking, **#AML**,  [[pdf]](https://www.cs.purdue.edu/homes/ma229/papers/NDSS19.pdf)
+- Stealthy Adversarial Perturbations Against Real-Time Video Classification Systems, **#AML #RT-Video** ,[[pdf]](https://www.ndss-symposium.org/ndss-paper/stealthy-adversarial-perturbations-against-real-time-video-classification-systems/)
+- TEXTBUGGER: Generating Adversarial Text Against Real-world Applications, **#AML #Text**, [[pdf]](https://arxiv.org/abs/1812.05271)
 
 ### Genomic Privacy (untracked)
 
