@@ -43,7 +43,11 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
  [[pdf]](https://eprint.iacr.org/2019/220)
 
 ### Differential Privacy
-- Calibrating Noise to Sensitivity in Private DataAnalysis, DMNS06, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
+- Calibrating Noise to Sensitivity in Private DataAnalysis, **DMNS06**, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
+- The Algorithmic Foundations of Differential Privacy, **2016#Textbook**, [[pdf]](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf)
+- The Composition Theorem for Differential Privacy, **#Composition**, [[pdf]](https://arxiv.org/pdf/1311.0776.pdf)
+- On the Difficulties of Disclosure Prevention in Statistical Databases or The Case for Differential Privacy, **Dwork**, [[pdf]](http://www.wisdom.weizmann.ac.il/~naor/PAPERS/imp_disclosure.pdf)
+- Distributed differential privacy via shuffling, **2019**, [[pdf]](https://arxiv.org/abs/1808.01394)
 - Privacy Integrated Queries:An Extensible Platform for Privacy-Preserving Data Analysis, **#PrivacyAccountant**, [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/pinq-CACM.pdf)
 - Differentially Private Model Publishing for Deep Learning, **#DP#DL**, [[pdf]](https://arxiv.org/pdf/1904.02200.pdf)
 
