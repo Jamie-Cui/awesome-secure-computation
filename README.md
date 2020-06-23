@@ -4,6 +4,8 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 
 > **[Recent NEWS]** Good Tutorials on Secure Computation: [10th BIU Winter School](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
 
+> Github repository for conference DDLs: [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
+
 
 ### Secure Computation (HE, MPC, OT, etc.)
 
