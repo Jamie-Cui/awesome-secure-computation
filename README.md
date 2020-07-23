@@ -1,25 +1,46 @@
 # awesome-crypto [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[TOC]
-
-This repo is a paper summary for cryptography, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). Here's a good place to ask questions related to cryptography, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/)
+This repo is a paper summary for cryptography, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). Here's a good place to ask questions related to cryptography, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/).
 
 > **[Recent NEWS]** Good Tutorials on Secure Computation: [10th BIU Winter School](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
 
-> Countdown for Security Conf DDLs: [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
+Useful Links:
 
-### Secure Computation (MPC, OT, etc.)
+- [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
+- [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 
-### 0. Summaries & Talks
+**Table of Contents**
+
+* [1. Secure Computation](#1-secure-computation)
+  + [1.0. Summaries and Talks](#10-summaries-and-talks)
+  + [1.1. Primitives](#11-primitives)
+    - [1.1.1. OT](#111-ot)
+    - [1.1.2. FSS](#112-fss)
+    - [1.1.3. OLE](#113-ole)
+    - [1.1.4. PSI](#114-psi)
+  + [1.2. Generic Protocols](#12-generic-protocols)
+    - [1.2.1. Semi-honest protocols](#121-semi-honest-protocols)
+    - [1.2.2. Covert Security](#122-covert-security)
+    - [1.2.3. Malicious Security](#123-malicious-security)
+* [2. Homomorphic Encryption](#2-homomorphic-encryption)
+* [3. Recent Research](#3-recent-research)
+* [4. Differential Privacy](#4-differential-privacy)
+* [5. Machine Learning Related](#5-machine-learning-related)
+  + [5.1. Classic Papers](#51-classic-papers)
+  + [5.2. Recent Research](#52-recent-research)
+
+## 1. Secure Computation
+
+### 1.0. Summaries and Talks
 
 | Title                                                        | Year | Note                                            | Eprint                                                       |
 | ------------------------------------------------------------ | ---- | ----------------------------------------------- | ------------------------------------------------------------ |
 | SoK: General purpose compilers for secure multi-party computation | 2019 | [github](https://github.com/MPC-SoK/frameworks) | [HNZ19](https://ieeexplore.ieee.org/abstract/document/8835312) |
 | Crypto Innovation School 2018                                | 2018 | Tutorials                                       | [CIS18](https://crypto.sjtu.edu.cn/cis2018/)                 |
 
-### 1. Primitives
+### 1.1. Primitives
 
-#### 1.1. OT
+#### 1.1.1. OT
 
 | Title                                                        | Year | Note                                           | Eprint                                                       |
 | ------------------------------------------------------------ | ---- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -35,7 +56,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | More Efficient Oblivious Transfer and Extensions for Faster Secure Computation | 2015 | The semi-honest 1-out-of-2 OT                  | [ALSZ15](https://eprint.iacr.org/2013/552)                   |
 | Extending Oblivious Transfers Efficiently                    | 2003 | The semi-honest 1-out-of-2 OT                  | [IKNP03](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf) |
 
-#### 1.2. FSS
+#### 1.1.2. FSS
 
 | Title                                                | Year | Note | Eprint                                                       |
 | ---------------------------------------------------- | ---- | ---- | ------------------------------------------------------------ |
@@ -43,14 +64,14 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | Function secret sharing: Improvements and extensions | 2016 |      | [BGI16b](https://eprint.iacr.org/2018/707)                   |
 | Distributed point functions and their applications   | 2014 |      | [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf) |
 
-#### 1.3. OLE
+#### 1.1.3. OLE
 
 | Title                                                        | Year | Note | Eprint                                      |
 | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------- |
 | Distributed vector-ole: Improved constructions and implementation | 2019 |      | [SGRR19](https://eprint.iacr.org/2019/1084) |
 | Compressing vector OLE                                       | 2018 |      | [BCGI18](https://eprint.iacr.org/2019/273)  |
 
-#### 1.4. PSI
+#### 1.1.4. PSI
 
 | Title                                                        | Year | Note     | Eprint                                                |
 | ------------------------------------------------------------ | ---- | -------- | ----------------------------------------------------- |
@@ -64,9 +85,9 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | Private set intersection: Are garbled circuits better than custom protocols | 2012 |          | [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf) |
 | Linear-complexity private set intersection protocols secure in malicious model | 2010 |          | [CKT10](https://eprint.iacr.org/2010/469)             |
 
-### 2. Generic Protocols
+### 1.2. Generic Protocols
 
-#### 2.1. Semi-honest protocols
+#### 1.2.1. Semi-honest protocols
 
 | Title                                                        | Year | Note | Eprint                                                   |
 | ------------------------------------------------------------ | ---- | ---- | -------------------------------------------------------- |
@@ -75,7 +96,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | How to play any mental game?                                 | 1987 |      | [GMW87](https://dl.acm.org/doi/10.1145/28395.28420)      |
 | How to generate and exchange secrets?                        | 1986 |      | [Yao86](https://ieeexplore.ieee.org/document/4568207)    |
 
-#### 2.2. Covert Security
+#### 1.2.2. Covert Security
 
 | Title                                                        | Year | Note | Eprint                                       |
 | ------------------------------------------------------------ | ---- | ---- | -------------------------------------------- |
@@ -83,7 +104,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | Calling out Cheaters: Covert Security With Public Verifiability | 2012 |      | [AO12](https://eprint.iacr.org/2012/708)     |
 | Security Against Covert Adversaries : Efficient Protocols for Realistic Adversaries | 2009 |      | [AL09](https://eprint.iacr.org/2007/060)     |
 
-#### 2.3. Malicious Security
+#### 1.2.3. Malicious Security
 
 | Title                                                        | Year | Note | Eprint |
 | ------------------------------------------------------------ | ---- | ---- | ------ |
@@ -94,7 +115,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel |      |      |        |
 | A new approach to practical active-secure two-party computation |      |      |        |
 
-## Homomorphic Encryption
+## 2. Homomorphic Encryption
 
 | Title                                                        | Year | Note | Eprint                                                       |
 | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ |
@@ -104,7 +125,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 | Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based | 2013 |      | [GSW13](https://eprint.iacr.org/2013/340)                    |
 | Homomorphic Encryption for Arithmetic of Approximate Numbers | 2016 |      | [CKKS16](https://eprint.iacr.org/2016/421)                   |
 
-## Recent Research
+## 3. Recent Research
 
 - Endemic Oblivious Transfer, **#OT**, [[pdf]](https://eprint.iacr.org/2019/706)
 - A Survey on Homomorphic Encryption Schemes: Theory and Implementation, **#Survey #HE** [[pdf]](https://arxiv.org/pdf/1704.03578.pdf)
@@ -128,7 +149,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 - Degree 2 is Complete for the Round-Complexity of Malicious MPC, **#Malicious-MPC**, [[pdf]](https://eprint.iacr.org/2019/200.pdf)
   [[pdf]](https://eprint.iacr.org/2019/220)
 
-### Differential Privacy
+## 4. Differential Privacy
 
 - Calibrating Noise to Sensitivity in Private DataAnalysis, **DMNS06**, [[pdf]](http://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf)
 - The Algorithmic Foundations of Differential Privacy, **2016#Textbook**, [[pdf]](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf)
@@ -138,9 +159,9 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 - Privacy Integrated Queries:An Extensible Platform for Privacy-Preserving Data Analysis, **#PrivacyAccountant**, [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/pinq-CACM.pdf)
 - Differentially Private Model Publishing for Deep Learning, **#DP#DL**, [[pdf]](https://arxiv.org/pdf/1904.02200.pdf)
 
-### Machine Learning Related (PPML, AML, FML, etc.)
+## 5. Machine Learning Related
 
-#### Classic Papers
+### 5.1. Classic Papers
 
 - Deep Learning with Differential Privacy, *Martín Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang*, **CCS 2016** [[pdf]](https://arxiv.org/pdf/1607.00133.pdf)
 - Federated Optimization: Distributed Machine Learning for On-Device Intelligence, **2016 Google AI** [[pdf]](https://arxiv.org/pdf/1610.02527.pdf)
@@ -148,7 +169,7 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 - Federated Learning of Deep Networks using Model Averaging, **2016 Google AI** [[pdf]](https://pdfs.semanticscholar.org/8b41/9080cd37bdc30872b76f405ef6a93eae3304.pdf)
 - Practical Secure Aggregationfor Privacy-Preserving Machine Learning, **2017 Google AI** [[pdf]](https://acmccs.github.io/papers/p1175-bonawitzA.pdf)
 
-#### Recent Research
+### 5.2. Recent Research
 
 - DeepSecure: Scalable Provably-Secure Deep Learning, **PPDL**, [[pdf]](https://arxiv.org/ftp/arxiv/papers/1705/1705.08963.pdf)
 - Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, **#PPDL #HE**, [[pdf]](https://eprint.iacr.org/2017/715.pdf)
@@ -167,13 +188,3 @@ This repo is a paper summary for cryptography, including topics like [*Multipart
 
 
 
-In the below I listed several top conferences in security/cryptography [[**Reference**]](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm):
-
-| Conference Name                                              | Abbreviation    |
-| ------------------------------------------------------------ | --------------- |
-| IEEE Symposium on Security and Privacy                       | S&P             |
-| ACM Conference on Computer and Communications Security       | CCS             |
-| USENIX Security Symposium                                    | USENIX Security |
-| Network and Distributed System Security Symposium            | NDSS            |
-| International Conference on Theory and Applications of Cryptographic Techniques | EUROCRYPT       |
-| International Cryptology Conference                          | CRYPTO          |
