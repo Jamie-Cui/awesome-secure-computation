@@ -1,10 +1,10 @@
-# awesome-crypto [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo is a paper summary for cryptography, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). Here's a good place to ask questions related to cryptography, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/).
+This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
 
-> **[Recent NEWS]** Good Tutorials on Secure Computation: [10th BIU Winter School](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
+Here's a good place to ask questions about cryptography/cryptanalysis, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/).
 
-Useful Links:
+**Useful Links**:
 
 - [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
@@ -33,10 +33,13 @@ Useful Links:
 
 ### 1.0. Summaries and Talks
 
-| Title                                                        | Year | Note                                            | Eprint                                                       |
-| ------------------------------------------------------------ | ---- | ----------------------------------------------- | ------------------------------------------------------------ |
-| SoK: General purpose compilers for secure multi-party computation | 2019 | [github](https://github.com/MPC-SoK/frameworks) | [HNZ19](https://ieeexplore.ieee.org/abstract/document/8835312) |
-| Crypto Innovation School 2018                                | 2018 | Tutorials                                       | [CIS18](https://crypto.sjtu.edu.cn/cis2018/)                 |
+| Title                                                        | Year | Topics                                                       | Link                                                         |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 10th BIU Winter School: information-theoretic cryptography   | 2020 | private-information retrieval, secret sharing and conditional disclosure of secrets, consensus, and secure multiparty protocols. | [link: BWS](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/) |
+| 9th BIU Winter School: information-theoretic cryptography: zero-knowledge proofs | 2019 | Foundations of zero-knowledge; Sigma protocols; MPC in the head; Zero knowledge and non-interactive zero-knowledge from Bilinear maps;Short zero knowledge |                                                              |
+| SoK: General purpose compilers for secure multi-party computation | 2019 | General MPC Frameworks                                       | [Github](https://github.com/MPC-SoK/frameworks), [Paper](https://ieeexplore.ieee.org/abstract/document/8835312) |
+| Crypto Innovation School 2019                                | 2019 | Lattice                                                      | [link: CIS19](https://crypto.sjtu.edu.cn/cis2019/)           |
+| Crypto Innovation School 2018                                | 2018 | MPC                                                          | [link: CIS18](https://crypto.sjtu.edu.cn/cis2018/)           |
 
 ### 1.1. Primitives
 
@@ -106,14 +109,14 @@ Useful Links:
 
 #### 1.2.3. Malicious Security
 
-| Title                                                        | Year | Note | Eprint |
-| ------------------------------------------------------------ | ---- | ---- | ------ |
-| Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ  |      |      |        |
-| SPDZ2k: Efficient MPC MOD 2k for dishonest majority          |      |      |        |
-| Overdrive: Making SPDZ great again                           |      |      |        |
-| High-throughput secure three-party computation for malicious adversaries and an honest majority |      |      |        |
-| MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel |      |      |        |
-| A new approach to practical active-secure two-party computation |      |      |        |
+| Title                                                        | Year | Note | Eprint                                      |
+| ------------------------------------------------------------ | ---- | ---- | ------------------------------------------- |
+| Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ  | 2019 |      | [BCS19](https://eprint.iacr.org/2019/035)   |
+| SPDZ2k: Efficient MPC MOD 2k for dishonest majority          | 2018 |      | [SDESC18](https://eprint.iacr.org/2018/482) |
+| Overdrive: Making SPDZ great again                           | 2017 |      | [KPR17](https://eprint.iacr.org/2017/1230)  |
+| High-throughput secure three-party computation for malicious adversaries and an honest majority | 2016 |      | [FLNW16](https://eprint.iacr.org/2016/944)  |
+| MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel | 2016 |      | [KOS16](https://eprint.iacr.org/2016/505)   |
+| A new approach to practical active-secure two-party computation | 2011 |      | [NNOB11](https://eprint.iacr.org/2011/091)  |
 
 ## 2. Homomorphic Encryption
 
@@ -183,8 +186,4 @@ Useful Links:
 - Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks, **#AML**, [[pdf]](people.cs.uchicago.edu/~ravenben/publications/pdf/backdoor-sp19.pdf)
 - NIC: Detecting Adversarial Samples with Neural Network Invariant Checking, **#AML**,  [[pdf]](https://www.cs.purdue.edu/homes/ma229/papers/NDSS19.pdf)
 - Stealthy Adversarial Perturbations Against Real-Time Video Classification Systems, **#AML #RT-Video** ,[[pdf]](https://www.ndss-symposium.org/ndss-paper/stealthy-adversarial-perturbations-against-real-time-video-classification-systems/)
-- TEXTBUGGER: Generating Adversarial Text Against Real-world Applications, **#AML #Text**, [[pdf]](https://arxiv.org/abs/1812.05271)
-
-
-
-
+- TEXTBUGGER: Generating Adversarial Text Against Real-world Applications, **#AML #Text**, [[pdf]](
