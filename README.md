@@ -14,72 +14,26 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 **Summaries and Talks**
 
 - 10th BIU Winter School: information-theoretic cryptography, 2020, [link](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
-
-  > #PIR #SecretSharing #CDS #consensus #MPC
-
 - 9th BIU Winter School: information-theoretic cryptography: zero-knowledge proofs, 2019
-
-  > Foundations of zero-knowledge; Sigma protocols; MPC in the head; Zero knowledge and non-interactive zero-knowledge from Bilinear maps;Short zero knowledge
-
 - SoK: General purpose compilers for secure multi-party computation, 2019, [Github](https://github.com/MPC-SoK/frameworks), [Paper](https://ieeexplore.ieee.org/abstract/document/8835312)
-
-  > General MPC Frameworks
-
 - Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
-
-  > Lattice
-
 - Crypto Innovation School 2018, [link](https://crypto.sjtu.edu.cn/cis2018/)
-
-  > MPC
 
 
 
 **Oblivious Transfer (OT)**
 
 - Endemic Oblivious Transfer, 2019, [MR19](https://eprint.iacr.org/2019/706)
-
-  > malicious secure 1-out-of-2 base OT
-
 - Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCGIKRS19](https://eprint.iacr.org/2019/1159)
-
-  > semi-honest 1-out-of-2 Silent OT
-
 - Efficient Pseudorandom Correlation Generators: Silent OT Extension and More, 2019, [BCGIKRS19](https://eprint.iacr.org/2019/448)
-
-  > Silent OT Extension
-
 - Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection, 2017, [OOS17](https://eprint.iacr.org/2016/933)
-
-  > The malicious secure 1-out-of-N OT
-
 - Improved Private Set Intersection against Malicious Adversaries, 2016, [RR16](https://eprint.iacr.org/2016/746)
-
-  > The malicious secure approximate K-out-of-N OT
-
 - Efficient Batched Oblivious PRF with Applications to Private Set Intersection, 2016, [KKRT16](https://eprint.iacr.org/2016/799)
-
-  > The semi-honest 1-out-of-N OT
-
 - Actively Secure OT Extension with Optimal Overhead, 2015, [KOS15](https://eprint.iacr.org/2015/546)
-
-  > The malicious secure 1-out-of-2 OT
-
 - High Performance Multi-Party Computation for Binary Circuits Based on Oblivious Transfer, 2015, [BLNNOOSS15](https://eprint.iacr.org/2015/472)
-
-  > The malicious secure 1-out-of-2 Delta-OT
-
 - The Simplest Protocol for Oblivious Transfer, 2015, [CO15](https://eprint.iacr.org/2015/267)
-
-  > The malicious secure 1-out-of-2 base OT
-
 - More Efficient Oblivious Transfer and Extensions for Faster Secure Computation, 2015, [ALSZ15](https://eprint.iacr.org/2013/552)
-
-  > The semi-honest 1-out-of-2 OT
-
 - Extending Oblivious Transfers Efficiently, 2003, [IKNP03](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf)
-
-  > The semi-honest 1-out-of-2 OT
 
 
 
