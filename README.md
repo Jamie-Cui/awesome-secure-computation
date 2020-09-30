@@ -1,6 +1,6 @@
 # awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
+This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption (or Lattice)*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
 
 Here's a good place to ask questions about cryptography/cryptanalysis, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/).
 
@@ -16,7 +16,6 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - 10th BIU Winter School: information-theoretic cryptography, 2020, [link](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
 - 9th BIU Winter School: information-theoretic cryptography: zero-knowledge proofs, 2019
 - SoK: General purpose compilers for secure multi-party computation, 2019, [Github](https://github.com/MPC-SoK/frameworks), [Paper](https://ieeexplore.ieee.org/abstract/document/8835312)
-- Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
 - Crypto Innovation School 2018, [link](https://crypto.sjtu.edu.cn/cis2018/)
 
 
@@ -94,6 +93,10 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Security Against Covert Adversaries : Efficient Protocols for Realistic Adversaries, 2009, [AL09](https://eprint.iacr.org/2007/060)
 
 ## 2. Lattice
+
+**Summaries and Talks**
+
+- Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
 
 **Homomorphic Encryption (HE)**
 
