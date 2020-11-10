@@ -9,6 +9,8 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 
+
+
 ## 1. Secure Computation
 
 **Summaries and Talks**
@@ -36,6 +38,39 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 
 
+**Private Set Intersection (PSI)**
+
+- Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
+- Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
+- PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
+- Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
+- Improved private set intersection against malicious adversaries, 2016, [RR16](https://eprint.iacr.org/2016/746)
+- Efficient batched oblivious PRF with applications to private set intersection, 2016, [KKRT16](https://eprint.iacr.org/2016/799)
+- Phasing : Private Set Intersection using Permutation-based Hashing, 2015,[PSSZ15](https://eprint.iacr.org/2015/634)
+- Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
+- Linear-complexity private set intersection protocols secure in malicious model, 2010, [CKT10](https://eprint.iacr.org/2010/469)
+
+
+
+**Private Information Retrieval (PIR) (Single-Server)**
+
+- Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [eprint](https://eprint.iacr.org/2020/1248)
+- Private Information Retrieval with Sublinear Online Time, 2020, [eprint](https://eprint.iacr.org/2019/1075)
+- Communication Computation Trade-offs in PIR, 2019, [eprint](https://eprint.iacr.org/2019/1483)
+- PIR with compressed queries and amortized query processing, 2018, [eprint](https://eprint.iacr.org/2017/1142)
+- Private Stateful Information Retrieval, 2018, [eprint](https://eprint.iacr.org/2018/1083)
+- Can We Access a Database Both Locally and Privately? 2017, [eprint](https://eprint.iacr.org/2017/567)
+- Towards Doubly Efficient Private Information Retrieval, 2017, [eprint](https://eprint.iacr.org/2017/568)
+- XPIR : Private Information Retrieval for Everyone, 2016, [eprint](https://eprint.iacr.org/2014/1025)
+- Optimal Rate Private Information Retrieval from Homomorphic Encryption, 2015, [eprint](https://petsymposium.org/2015/papers/23_Kiayias.pdf)
+- First CPIR Protocol with Data-Dependent Computation, 2009, [eprint](https://dl.acm.org/doi/10.5555/1883749.1883769)
+- An Oblivious Transfer Protocol with Log-Squared Communication, 2005, [eprint](https://eprint.iacr.org/2004/063)
+- Single-database private information retrieval with constant communication rate, 2005, [eprint](https://www.cs.umd.edu/~gasarch/TOPICS/pir/logn.pdf)
+- A new efficient all-or-nothing disclosure of secrets protocol, 1998
+- Replication is NOT needed: SINGLE database, computationally- private information retrieval, 1997, [KO97](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf)
+
+
+
 **Function Secret Sharing (FSS)**
 
 - Function Secret Sharing, 2016, [BGI16a](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf)
@@ -50,18 +85,6 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
 
 
-
-**Private Set Intersection (PSI)**
-
-- Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
-- Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
-- PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
-- Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
-- Improved private set intersection against malicious adversaries, 2016, [RR16](https://eprint.iacr.org/2016/746)
-- Efficient batched oblivious PRF with applications to private set intersection, 2016, [KKRT16](https://eprint.iacr.org/2016/799)
-- Phasing : Private Set Intersection using Permutation-based Hashing, 2015,[PSSZ15](https://eprint.iacr.org/2015/634)
-- Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
-- Linear-complexity private set intersection protocols secure in malicious model, 2010, [CKT10](https://eprint.iacr.org/2010/469)
 
 
 
@@ -92,6 +115,8 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Calling out Cheaters: Covert Security With Public Verifiability, 2012, [AO12](https://eprint.iacr.org/2012/708)
 - Security Against Covert Adversaries : Efficient Protocols for Realistic Adversaries, 2009, [AL09](https://eprint.iacr.org/2007/060)
 
+
+
 ## 2. Lattice
 
 **Summaries and Talks**
@@ -105,4 +130,3 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Somewhat Practical Fully Homomorphic Encryption, 2012, [BFV12](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf)
 - Fully Homomorphic Encryption without Bootstrapping, 2011, [BGV11](https://eprint.iacr.org/2011/277.pdf)
 - Computing Arbitrary Functions of Encrypted Data, 2009, [Gen09](https://crypto.stanford.edu/craig/easy-fhe.pdf)
-
