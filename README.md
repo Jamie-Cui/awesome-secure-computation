@@ -41,7 +41,7 @@
   **Private Set Intersection (PSI)**
 
   - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
-  - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-OT](https://eprint.iacr.org/2019/634)
+  - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-PSI](https://eprint.iacr.org/2019/634)
   - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
   - PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
   - Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
