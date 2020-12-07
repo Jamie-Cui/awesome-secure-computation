@@ -91,6 +91,7 @@
 
   **Function Secret Sharing (FSS)**
 
+  - Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, 2019, [BCGI+19](https://eprint.iacr.org/2020/1392)
   - Function Secret Sharing, 2016, [BGI16a](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf)
   - Function secret sharing: Improvements and extensions, 2016, [BGI16b](https://eprint.iacr.org/2018/707)
   - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
@@ -99,25 +100,28 @@
 
   **Oblivious Linear Evaluation (OLE)**
 
+  - Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
+  - Reusable Non-Interactive Secure Computation, 2019 [CDIK+19](https://eprint.iacr.org/2018/940)
   - Distributed vector-ole: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
   - Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
 
   
 
-  **[TODO] Oblivious Extended Permutation (OEP)**
-
+  **Oblivious Extended Permutation (OEP)**
+  - Composable Oblivious Extended Permutations, 2014, [LW14](https://eprint.iacr.org/2014/400)
   
 
   
 
-  **[TODO] Oblivious Pseudorandom Function (OPRF)**
+  **Oblivious Pseudorandom Function (OPRF)**
+  - Efficient Oblivious Pseudorandom Function with Applications to Adaptive OT and Secure Computation of Set Intersection, 2009, [JL09](https://www.iacr.org/archive/tcc2009/54440575/54440575.pdf)
+  - TOPPSS: Cost-minimal Password-Protected Secret Sharing based on Threshold OPRF, 2017, [JKKS17](https://eprint.iacr.org/2017/363)
 
   
 
-  
-
-  **[TODO] Pseudorandom Correlation Generator (PCG)**
-
+  **Pseudorandom Correlation Generator (PCG)**
+  - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCGI+20](https://eprint.iacr.org/2020/1417)
+  - Efficient Pseudorandom Correlation Generators: Silent OT Extension and More, 2019, [BCGI+19](https://eprint.iacr.org/2019/448)
   
 
   
