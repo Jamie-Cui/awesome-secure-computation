@@ -41,7 +41,7 @@
   **Private Set Intersection (PSI)**
 
   - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
-  - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-PSI](https://eprint.iacr.org/2019/634)
+  - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-OT](https://eprint.iacr.org/2019/634)
   - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
   - PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
   - Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
@@ -55,6 +55,7 @@
 
   **Private Information Retrieval (PIR) (Single-Server)**
 
+  - Batched Differentially Private Information Retrieval, 2020, [eprint](https://eprint.iacr.org/2020/1596.pdf)
   - Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [eprint](https://eprint.iacr.org/2020/1248)
   - Private Information Retrieval with Sublinear Online Time, 2020, [eprint](https://eprint.iacr.org/2019/1075)
   - Communication Computation Trade-offs in PIR, 2019, [eprint](https://eprint.iacr.org/2019/1483)
@@ -91,37 +92,18 @@
 
   **Function Secret Sharing (FSS)**
 
-  - Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, 2019, [BCGI+19](https://eprint.iacr.org/2020/1392)
+  - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCG+20a](https://eprint.iacr.org/2020/1417)
+  - Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation Table of Contents, 2020, [BCG+20b](https://eprint.iacr.org/2020/1392)
+  - Secure Computation with Preprocessing via Function Secret Sharing, 2019, [BGI19](https://eprint.iacr.org/2019/1095)
+  - Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCG+19](https://eprint.iacr.org/2019/1159)
+  - Distributed vector-ole: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
+  - Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
   - Function Secret Sharing, 2016, [BGI16a](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf)
   - Function secret sharing: Improvements and extensions, 2016, [BGI16b](https://eprint.iacr.org/2018/707)
   - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
 
   
 
-  **Oblivious Linear Evaluation (OLE)**
-
-  - Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
-  - Reusable Non-Interactive Secure Computation, 2019 [CDIK+19](https://eprint.iacr.org/2018/940)
-  - Distributed vector-ole: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
-  - Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
-
-  
-
-  **Oblivious Extended Permutation (OEP)**
-  - Composable Oblivious Extended Permutations, 2014, [LW14](https://eprint.iacr.org/2014/400)
-  
-
-  
-
-  **Oblivious Pseudorandom Function (OPRF)**
-  - Efficient Oblivious Pseudorandom Function with Applications to Adaptive OT and Secure Computation of Set Intersection, 2009, [JL09](https://www.iacr.org/archive/tcc2009/54440575/54440575.pdf)
-  - TOPPSS: Cost-minimal Password-Protected Secret Sharing based on Threshold OPRF, 2017, [JKKS17](https://eprint.iacr.org/2017/363)
-
-  
-
-  **Pseudorandom Correlation Generator (PCG)**
-  - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCGI+20](https://eprint.iacr.org/2020/1417)
-  - Efficient Pseudorandom Correlation Generators: Silent OT Extension and More, 2019, [BCGI+19](https://eprint.iacr.org/2019/448)
   
 
   
