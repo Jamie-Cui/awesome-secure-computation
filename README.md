@@ -59,9 +59,9 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 **Private Information Retrieval (PIR) (Single-Server)**
 
+- **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [eprint](https://eprint.iacr.org/2019/1075)
 - Batched Differentially Private Information Retrieval, 2020, [eprint](https://eprint.iacr.org/2020/1596.pdf)
 - Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [eprint](https://eprint.iacr.org/2020/1248)
-- Private Information Retrieval with Sublinear Online Time, 2020, [eprint](https://eprint.iacr.org/2019/1075)
 - Communication Computation Trade-offs in PIR, 2019, [eprint](https://eprint.iacr.org/2019/1483)
 - PIR with compressed queries and amortized query processing, 2018, [eprint](https://eprint.iacr.org/2017/1142)
 - Private Stateful Information Retrieval, 2018, [eprint](https://eprint.iacr.org/2018/1083)
