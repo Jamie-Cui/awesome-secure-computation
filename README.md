@@ -41,9 +41,11 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 **Private Set Intersection (PSI)**
 
+- The Apple PSI System, 2021, [link](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
 - Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)
 - VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)
 - Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)
+- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)
 - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
 - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-OT](https://eprint.iacr.org/2019/634)
 - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
@@ -54,11 +56,15 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Phasing : Private Set Intersection using Permutation-based Hashing, 2015,[PSSZ15](https://eprint.iacr.org/2015/634)
 - Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
 - Linear-complexity private set intersection protocols secure in malicious model, 2010, [CKT10](https://eprint.iacr.org/2010/469)
+- Practical Private Set Intersection Protocols with Linear Computational and Bandwidth Complexity, 2010, [CT10]
+- Information Sharing Across Private Databases, 2003, [AES03]
 
 
 
 **Private Information Retrieval (PIR) (Single-Server)**
 
+- OnionPIR: Response Efficient Single-Server PIR, 2021, [eprint](https://eprint.iacr.org/2021/1081)
+- On the Security of Doubly Efficient PIR, 2021, [eprint](https://eprint.iacr.org/2021/1113)
 - **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [eprint](https://eprint.iacr.org/2019/1075)
 - Batched Differentially Private Information Retrieval, 2020, [eprint](https://eprint.iacr.org/2020/1596.pdf)
 - Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [eprint](https://eprint.iacr.org/2020/1248)
@@ -96,6 +102,11 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 **Function Secret Sharing (FSS)**
 
+- Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [eprint](https://eprint.iacr.org/2021/580)
+- Lightweight Techniques for Private Heavy Hitters, 2021, [eprint](https://arxiv.org/abs/2012.14884)
+- The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [eprint](https://eprint.iacr.org/2021/262)
+- Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [link](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)
+- Low-Complexity Weak Pseudorandom Functions in AC0 [MOD 2], 2021
 - Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing, 2021, [DILO+21](https://eprint.iacr.org/2020/1599)
 - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCG+20a](https://eprint.iacr.org/2020/1417)
 - Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, 2020, [BCG+20b](https://eprint.iacr.org/2020/1392)
@@ -106,9 +117,6 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Function Secret Sharing, 2016, [BGI16a](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf)
 - Function secret sharing: Improvements and extensions, 2016, [BGI16b](https://eprint.iacr.org/2018/707)
 - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
-
-
-
 
 
 
