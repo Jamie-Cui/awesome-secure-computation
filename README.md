@@ -1,4 +1,4 @@
-- # awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption (or Lattice)*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
 
