@@ -39,13 +39,13 @@ In this part, we summaries few primitives and protocols in MPC.
 
 ### 1.3. Private Set Intersection (PSI)
 
-- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMGD21+](https://eprint.iacr.org/2021/1116)
-- Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)
-- The Apple PSI System, 2021, [ApplePSI](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
-- Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)
-- VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)
-- Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)
-- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)
+- **Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMGD21+](https://eprint.iacr.org/2021/1116)**
+- **Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)**
+- **The Apple PSI System, 2021, [BBMT21+](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)**
+- **Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)**
+- **VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)**
+- **Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)**
+- **Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)**
 - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
 - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [PRTY19](https://eprint.iacr.org/2019/634)
 - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
@@ -62,8 +62,8 @@ In this part, we summaries few primitives and protocols in MPC.
 
 ### 1.4. Private Information Retrieval (PIR) 
 
-- OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)
-- On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)
+- **OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)**
+- **On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)**
 - **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [GK20](https://eprint.iacr.org/2019/1075)
 - Batched Differentially Private Information Retrieval, 2020, [AIVG20](https://eprint.iacr.org/2020/1596.pdf)
 - Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [GHMN20+](https://eprint.iacr.org/2020/1248)
@@ -97,12 +97,12 @@ In this part, we summaries few primitives and protocols in MPC.
 
 ### 1.6. Function Secret Sharing (FSS) 
 
-- Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)
-- Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)
-- The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [OSY21](https://eprint.iacr.org/2021/262)
-- Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [BGIN21](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)
-- Low-Complexity Weak Pseudorandom Functions in AC0 [MOD 2], 2021
-- Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing, 2021, [DILO+21](https://eprint.iacr.org/2020/1599)
+- **Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)**
+- **Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)**
+- **The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [OSY21](https://eprint.iacr.org/2021/262)**
+- **Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [BGIN21](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)**
+- **Low-Complexity Weak Pseudorandom Functions in AC0 [MOD 2], 2021**
+- **Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing, 2021, [DILO+21](https://eprint.iacr.org/2020/1599)**
 - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCG+20a](https://eprint.iacr.org/2020/1417)
 - Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, 2020, [BCG+20b](https://eprint.iacr.org/2020/1392)
 - Secure Computation with Preprocessing via Function Secret Sharing, 2019, [BGI19](https://eprint.iacr.org/2019/1095)
