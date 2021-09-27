@@ -1,4 +1,4 @@
-# awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+- # awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption (or Lattice)*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
 
@@ -8,21 +8,20 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 - [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
+- [Crypto21: Mentoring Videos about how to do research in cryptography](https://mentor-crypto-2021.github.io/)
 
+## 1. MPC
 
+In this part, we summaries few primitives and protocols in MPC.
 
-## 1. Secure Computation
-
-**Summaries and Talks**
+### 1.1. Summaries and Talks
 
 - 10th BIU Winter School: information-theoretic cryptography, 2020, [link](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
 - 9th BIU Winter School: information-theoretic cryptography: zero-knowledge proofs, 2019
 - SoK: General purpose compilers for secure multi-party computation, 2019, [Github](https://github.com/MPC-SoK/frameworks), [Paper](https://ieeexplore.ieee.org/abstract/document/8835312)
 - Crypto Innovation School 2018, [link](https://crypto.sjtu.edu.cn/cis2018/)
 
-
-
-**Oblivious Transfer (OT)**
+### 1.2. Oblivious Transfer (OT)
 
 - Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCGI19+](https://eprint.iacr.org/2019/1159)
 - Endemic Oblivious Transfer, 2019, [MR19](https://eprint.iacr.org/2019/706)
@@ -38,16 +37,17 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Extending Oblivious Transfers Efficiently, 2003, [IKNP03](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf)
 
 
+### 1.3. Private Set Intersection (PSI)
 
-**Private Set Intersection (PSI)**
-
-- The Apple PSI System, 2021, [link](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
+- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMGD21+](https://eprint.iacr.org/2021/1116)
+- Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)
+- The Apple PSI System, 2021, [ApplePSI](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
 - Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)
 - VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)
 - Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)
 - Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)
 - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
-- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [SPOT-OT](https://eprint.iacr.org/2019/634)
+- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [PRTY19](https://eprint.iacr.org/2019/634)
 - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
 - PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
 - Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
@@ -60,52 +60,47 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Information Sharing Across Private Databases, 2003, [AES03]
 
 
+### 1.4. Private Information Retrieval (PIR) 
 
-**Private Information Retrieval (PIR) (Single-Server)**
-
-- OnionPIR: Response Efficient Single-Server PIR, 2021, [eprint](https://eprint.iacr.org/2021/1081)
-- On the Security of Doubly Efficient PIR, 2021, [eprint](https://eprint.iacr.org/2021/1113)
-- **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [eprint](https://eprint.iacr.org/2019/1075)
-- Batched Differentially Private Information Retrieval, 2020, [eprint](https://eprint.iacr.org/2020/1596.pdf)
-- Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [eprint](https://eprint.iacr.org/2020/1248)
-- Communication Computation Trade-offs in PIR, 2019, [eprint](https://eprint.iacr.org/2019/1483)
-- PIR with compressed queries and amortized query processing, 2018, [eprint](https://eprint.iacr.org/2017/1142)
-- Private Stateful Information Retrieval, 2018, [eprint](https://eprint.iacr.org/2018/1083)
-- Can We Access a Database Both Locally and Privately? 2017, [eprint](https://eprint.iacr.org/2017/567)
-- Towards Doubly Efficient Private Information Retrieval, 2017, [eprint](https://eprint.iacr.org/2017/568)
-- XPIR : Private Information Retrieval for Everyone, 2016, [eprint](https://eprint.iacr.org/2014/1025)
-- Optimal Rate Private Information Retrieval from Homomorphic Encryption, 2015, [eprint](https://petsymposium.org/2015/papers/23_Kiayias.pdf)
-- First CPIR Protocol with Data-Dependent Computation, 2009, [eprint](https://dl.acm.org/doi/10.5555/1883749.1883769)
-- An Oblivious Transfer Protocol with Log-Squared Communication, 2005, [eprint](https://eprint.iacr.org/2004/063)
-- Single-database private information retrieval with constant communication rate, 2005, [eprint](https://www.cs.umd.edu/~gasarch/TOPICS/pir/logn.pdf)
-- A new efficient all-or-nothing disclosure of secrets protocol, 1998
+- OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)
+- On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)
+- **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [GK20](https://eprint.iacr.org/2019/1075)
+- Batched Differentially Private Information Retrieval, 2020, [AIVG20](https://eprint.iacr.org/2020/1596.pdf)
+- Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [GHMN20+](https://eprint.iacr.org/2020/1248)
+- Communication Computation Trade-offs in PIR, 2019, [ALPRS19+](https://eprint.iacr.org/2019/1483)
+- PIR with compressed queries and amortized query processing, 2018, [ACLS18+](https://eprint.iacr.org/2017/1142)
+- Private Stateful Information Retrieval, 2018, [PPY18](https://eprint.iacr.org/2018/1083)
+- Can We Access a Database Both Locally and Privately? 2017, [BIPW17](https://eprint.iacr.org/2017/567)
+- Towards Doubly Efficient Private Information Retrieval, 2017, [CHR17](https://eprint.iacr.org/2017/568)
+- XPIR : Private Information Retrieval for Everyone, 2016, [MBFK16](https://eprint.iacr.org/2014/1025)
+- Optimal Rate Private Information Retrieval from Homomorphic Encryption, 2015, [KLLP15+](https://petsymposium.org/2015/papers/23_Kiayias.pdf)
+- First CPIR Protocol with Data-Dependent Computation, 2009, [LIP09](https://dl.acm.org/doi/10.5555/1883749.1883769)
+- An Oblivious Transfer Protocol with Log-Squared Communication, 2005, [LIP05](https://eprint.iacr.org/2004/063)
+- Single-database private information retrieval with constant communication rate, 2005, [GR05](https://www.cs.umd.edu/~gasarch/TOPICS/pir/logn.pdf)
+- A new efficient all-or-nothing disclosure of secrets protocol, 1998, [Stern98](https://link.springer.com/content/pdf/10.1007%2F3-540-49649-1_28.pdf)
 - Replication is NOT needed: SINGLE database, computationally- private information retrieval, 1997, [KO97](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf)
 
 
+### 1.5. Private Function Evaluation (PFE) (focusing on circuit privacy)
 
-**Private Function Evaluation (PFE) (General)**
-
-- Linear-Complexity Private Function Evaluation is Practical, 2020, [eprint](https://eprint.iacr.org/2020/853)
-- An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates, 2019, [eprint](https://eprint.iacr.org/2017/415)
-- Highly Efficient and Reusable Private Function Evaluation with Linear Complexity, 2018, [eprint](https://eprint.iacr.org/2018/515)
-- Private Function Evaluation for MPC, 2015, [eprint](https://eprint.iacr.org/2013/137)
-- Actively Secure Private Function Evaluation, 2014, [eprint](https://eprint.iacr.org/2014/102)
-- How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation, 2013, [eprint](https://eprint.iacr.org/2013/137)
-- Private set intersection: Are garbled circuits better than custom protocols, 2012, [eprint](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
-- Constant-round private function evaluation with linear complexity, 2011, [eprint](https://eprint.iacr.org/2010/528)
-- Bureaucratic protocols for secure two-party sorting, selection, and permuting, 2010, [eprint](https://dl.acm.org/doi/10.1145/1755688.1755716)
-- Selective private function evaluation with applications to private statistics, 2001, [eprint](https://dl.acm.org/doi/10.1145/383962.384047)
-
+- Linear-Complexity Private Function Evaluation is Practical, 2020, [HKRS20](https://eprint.iacr.org/2020/853)
+- An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates, 2019, [BBKL19](https://eprint.iacr.org/2017/415)
+- Highly Efficient and Reusable Private Function Evaluation with Linear Complexity, 2018, [BBKL18](https://eprint.iacr.org/2018/515)
+- Private Function Evaluation for MPC, 2015, [Pullonen15](https://eprint.iacr.org/2013/137)
+- Actively Secure Private Function Evaluation, 2014, [MSS14](https://eprint.iacr.org/2014/102)
+- How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation, 2013, [MS13](https://eprint.iacr.org/2013/137)
+- Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
+- Constant-round private function evaluation with linear complexity, 2011, [KM11](https://eprint.iacr.org/2010/528)
+- Bureaucratic protocols for secure two-party sorting, selection, and permuting, 2010, [WLGD10+](https://dl.acm.org/doi/10.1145/1755688.1755716)
+- Selective private function evaluation with applications to private statistics, 2001, [CIKR01+](https://dl.acm.org/doi/10.1145/383962.384047)
 
 
+### 1.6. Function Secret Sharing (FSS) 
 
-
-**Function Secret Sharing (FSS)**
-
-- Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [eprint](https://eprint.iacr.org/2021/580)
-- Lightweight Techniques for Private Heavy Hitters, 2021, [eprint](https://arxiv.org/abs/2012.14884)
-- The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [eprint](https://eprint.iacr.org/2021/262)
-- Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [link](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)
+- Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)
+- Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)
+- The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [OSY21](https://eprint.iacr.org/2021/262)
+- Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [BGIN21](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)
 - Low-Complexity Weak Pseudorandom Functions in AC0 [MOD 2], 2021
 - Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing, 2021, [DILO+21](https://eprint.iacr.org/2020/1599)
 - Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCG+20a](https://eprint.iacr.org/2020/1417)
@@ -119,18 +114,14 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
 
 
-
-
-**Semi-honest Generic Protocols**
+### 1.7. Semi-honest Generic Protocols
 
 - The Round Complexity of Secure Protocols, 1990, [BMR90](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
 - Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, 1988, [BGW88](https://dl.acm.org/doi/10.1145/62212.62213)
 - How to play any mental game? 1987, [GMW87](https://dl.acm.org/doi/10.1145/28395.28420)
 - How to generate and exchange secrets? 1986, [Yao86](https://ieeexplore.ieee.org/document/4568207)
 
-
-
-**Malicious Generic Protocols**
+### 1.8. Malicious Generic Protocols
 
 - New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning, 2019, [DEF19](https://eprint.iacr.org/2019/599)
 - Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ, 2019, [BCS19](https://eprint.iacr.org/2019/035)
@@ -140,26 +131,24 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel, 2016, [KOS16](https://eprint.iacr.org/2016/505)
 - A new approach to practical active-secure two-party computation, 2011, [NNOB11](https://eprint.iacr.org/2011/091)
 
-
-
-**Covert Generic Protocols**
+### 1.9. Covert Generic Protocols
 
 - Practical Covertly Secure MPC for Dishonest Majority – or : Breaking the SPDZ Limits, 2012, [DKLPSS12](https://eprint.iacr.org/2012/642)
 - Calling out Cheaters: Covert Security With Public Verifiability, 2012, [AO12](https://eprint.iacr.org/2012/708)
 - Security Against Covert Adversaries : Efficient Protocols for Realistic Adversaries, 2009, [AL09](https://eprint.iacr.org/2007/060)
 
+  ## 2. Lattice
 
-
-## 2. Lattice
-
-**Summaries and Talks**
+ ### 2.1. Summaries and Talks
 
 - Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
 
-**Homomorphic Encryption (HE)**
+ ### 2.2. Homomorphic Encryption (HE)
 
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, 2016, [CKKS16](https://eprint.iacr.org/2016/421)
 - Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, 2013, [GSW13](https://eprint.iacr.org/2013/340)
 - Somewhat Practical Fully Homomorphic Encryption, 2012, [BFV12](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf)
 - Fully Homomorphic Encryption without Bootstrapping, 2011, [BGV11](https://eprint.iacr.org/2011/277.pdf)
 - Computing Arbitrary Functions of Encrypted Data, 2009, [Gen09](https://crypto.stanford.edu/craig/easy-fhe.pdf)
+
+
