@@ -36,16 +36,27 @@ In this part, we summaries few primitives and protocols in MPC.
 - More Efficient Oblivious Transfer and Extensions for Faster Secure Computation, 2015, [ALSZ15](https://eprint.iacr.org/2013/552)
 - Extending Oblivious Transfers Efficiently, 2003, [IKNP03](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf)
 
+### 1.3. (vector) Oblivious Linear Evaluation (OLE/vOLE)
 
-### 1.3. Private Set Intersection (PSI)
+- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021
+- Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020
+- Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE, 2020
+- Distributed vector-OLE: Improved constructions and implementation, 2019
+- Compressing vector OLE, 2018
+- Maliciously secure oblivious linear function evaluation with constant overhead, 2017
+- TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017
+- Oblivious polynomial evaluation, 2006
 
-- **Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMGD21+](https://eprint.iacr.org/2021/1116)**
-- **Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)**
-- **The Apple PSI System, 2021, [BBMT21+](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)**
-- **Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)**
-- **VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)**
-- **Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)**
-- **Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)**
+
+### 1.4. Private Set Intersection (PSI)
+
+- Compact and Malicious Private Set Intersection for Small Sets, 2021, [RT21](https://eprint.iacr.org/2021/1159)
+- Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)
+- The Apple PSI System, 2021, [BBMT21+](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
+- Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)
+- VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)
+- Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)
+- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)
 - Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
 - SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [PRTY19](https://eprint.iacr.org/2019/634)
 - Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
@@ -60,7 +71,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Information Sharing Across Private Databases, 2003, [AES03]
 
 
-### 1.4. Private Information Retrieval (PIR) 
+### 1.5. Private Information Retrieval (PIR) 
 
 - **OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)**
 - **On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)**
@@ -81,7 +92,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Replication is NOT needed: SINGLE database, computationally- private information retrieval, 1997, [KO97](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf)
 
 
-### 1.5. Private Function Evaluation (PFE) (focusing on circuit privacy)
+### 1.6. Private Function Evaluation (PFE) (focusing on circuit privacy)
 
 - Linear-Complexity Private Function Evaluation is Practical, 2020, [HKRS20](https://eprint.iacr.org/2020/853)
 - An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates, 2019, [BBKL19](https://eprint.iacr.org/2017/415)
@@ -95,7 +106,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Selective private function evaluation with applications to private statistics, 2001, [CIKR01+](https://dl.acm.org/doi/10.1145/383962.384047)
 
 
-### 1.6. Function Secret Sharing (FSS) 
+### 1.7. Function Secret Sharing (FSS) 
 
 - **Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)**
 - **Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)**
@@ -114,15 +125,18 @@ In this part, we summaries few primitives and protocols in MPC.
 - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
 
 
-### 1.7. Semi-honest Generic Protocols
+### 1.8. Semi-honest Generic Protocols
 
 - The Round Complexity of Secure Protocols, 1990, [BMR90](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
 - Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, 1988, [BGW88](https://dl.acm.org/doi/10.1145/62212.62213)
 - How to play any mental game? 1987, [GMW87](https://dl.acm.org/doi/10.1145/28395.28420)
 - How to generate and exchange secrets? 1986, [Yao86](https://ieeexplore.ieee.org/document/4568207)
 
-### 1.8. Malicious Generic Protocols
+### 1.9. Malicious Generic Protocols
 
+- MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP, 2021
+- Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption, 2019
+- MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}, 2019
 - New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning, 2019, [DEF19](https://eprint.iacr.org/2019/599)
 - Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ, 2019, [BCS19](https://eprint.iacr.org/2019/035)
 - SPDZ2k: Efficient MPC MOD 2k for dishonest majority, 2018, [SDESC18](https://eprint.iacr.org/2018/482)
@@ -131,19 +145,14 @@ In this part, we summaries few primitives and protocols in MPC.
 - MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel, 2016, [KOS16](https://eprint.iacr.org/2016/505)
 - A new approach to practical active-secure two-party computation, 2011, [NNOB11](https://eprint.iacr.org/2011/091)
 
-### 1.9. Covert Generic Protocols
 
-- Practical Covertly Secure MPC for Dishonest Majority – or : Breaking the SPDZ Limits, 2012, [DKLPSS12](https://eprint.iacr.org/2012/642)
-- Calling out Cheaters: Covert Security With Public Verifiability, 2012, [AO12](https://eprint.iacr.org/2012/708)
-- Security Against Covert Adversaries : Efficient Protocols for Realistic Adversaries, 2009, [AL09](https://eprint.iacr.org/2007/060)
+## 2. Lattice
 
-  ## 2. Lattice
-
- ### 2.1. Summaries and Talks
+### 2.1. Summaries and Talks
 
 - Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
 
- ### 2.2. Homomorphic Encryption (HE)
+### 2.2. Homomorphic Encryption (HE)
 
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, 2016, [CKKS16](https://eprint.iacr.org/2016/421)
 - Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, 2013, [GSW13](https://eprint.iacr.org/2013/340)
