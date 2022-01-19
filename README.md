@@ -38,14 +38,14 @@ In this part, we summaries few primitives and protocols in MPC.
 
 ### 1.3. (vector) Oblivious Linear Evaluation (OLE/vOLE)
 
-- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021
-- Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020
-- Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE, 2020
-- Distributed vector-OLE: Improved constructions and implementation, 2019
-- Compressing vector OLE, 2018
-- Maliciously secure oblivious linear function evaluation with constant overhead, 2017
-- TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017
-- Oblivious polynomial evaluation, 2006
+- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021, [CRR21](https://eprint.iacr.org/2021/1150)
+- Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
+- Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE, 2020, [BEPST20](https://eprint.iacr.org/2020/970)
+- Distributed vector-OLE: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
+- Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
+- Maliciously secure oblivious linear function evaluation with constant overhead, 2017, [GNN17](https://eprint.iacr.org/2017/409)
+- TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017, [DGNNT17](https://eprint.iacr.org/2017/790)
+- Oblivious Transfer and Polynomial Evaluation, 1999, [NP99](https://dl.acm.org/doi/pdf/10.1145/301250.301312)
 
 
 ### 1.4. Private Set Intersection (PSI)
@@ -134,9 +134,9 @@ In this part, we summaries few primitives and protocols in MPC.
 
 ### 1.9. Malicious Generic Protocols
 
-- MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP, 2021
-- Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption, 2019
-- MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}, 2019
+- MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP, 2021, [CKLM+21](https://eprint.iacr.org/2021/1383)
+- Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption, 2019, [OSVJ19](https://eprint.iacr.org/2019/153)
+- MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}, 2019, [CRFG19](https://eprint.iacr.org/2019/211)
 - New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning, 2019, [DEF19](https://eprint.iacr.org/2019/599)
 - Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ, 2019, [BCS19](https://eprint.iacr.org/2019/035)
 - SPDZ2k: Efficient MPC MOD 2k for dishonest majority, 2018, [SDESC18](https://eprint.iacr.org/2018/482)
