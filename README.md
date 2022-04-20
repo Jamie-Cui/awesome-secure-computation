@@ -42,6 +42,10 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 > OT: Oblivious Transfer  
 > 1-out-of-2 base OT and OT Extensions
 
+- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
+  *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
+  Crypto 2021, [eprint](https://eprint.iacr.org/2021/1150), CRR21
+
 - The Rise of Paillier: Homomorphic Secret Sharing and Public-Key Silent OT  
   *Claudio Orlandi, Peter Scholl, Sophia Yakoubov*  
   EuroCrypt 2021, [eprint](https://eprint.iacr.org/2021/262), OSY21
@@ -83,6 +87,14 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   Crypto 2003, [eprint](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf), IKNP03
 
 ### vOLE
+
+- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
+  *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
+  Crypto 2021, [eprint](https://eprint.iacr.org/2021/1150), CRR21
+  
+- Two-Round Oblivious Linear Evaluation from Learning with Errors
+  *Pedro Branco, Nico Döttling, Paulo Mateus*
+  PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM20
 
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021, [CRR21](https://eprint.iacr.org/2021/1150)
 - Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
