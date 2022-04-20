@@ -10,33 +10,79 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 - [Crypto21: Mentoring Videos about how to do research in cryptography](https://mentor-crypto-2021.github.io/)
 
-## 1. MPC
+## Table of contents
 
-In this part, we summaries few primitives and protocols in MPC.
+- [MPC](#mpc)
+  * [Summaries and Talks](#summaries-and-talks)
+  * [OT](#ot)
+  * [OLE/vOLE](#vole)
+  * [OPRF](#oprf)
+  * [PIR](#pir)
+  * [PFE](#pfe)
+  * [FSS](#fss)
+  * [Semi-honest MPC](#semi-honest-mpc)
+  * [Malicious MPC](#malicious-mpc)
+- [Lattice](#lattice)
+  * [Summaries and Talks](#summaries-and-talks-1)
+  * [HE](#he)
 
-### 1.1. Summaries and Talks
+## MPC
+
+> MPC: Multi-Party Computation
+
+### Summaries and Talks
 
 - 10th BIU Winter School: information-theoretic cryptography, 2020, [link](https://cyber.biu.ac.il/event/the-10th-biu-winter-school-on-cryptography/)
 - 9th BIU Winter School: information-theoretic cryptography: zero-knowledge proofs, 2019
 - SoK: General purpose compilers for secure multi-party computation, 2019, [Github](https://github.com/MPC-SoK/frameworks), [Paper](https://ieeexplore.ieee.org/abstract/document/8835312)
 - Crypto Innovation School 2018, [link](https://crypto.sjtu.edu.cn/cis2018/)
 
-### 1.2. Oblivious Transfer (OT)
+### OT
 
-- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCGI19+](https://eprint.iacr.org/2019/1159)
-- Endemic Oblivious Transfer, 2019, [MR19](https://eprint.iacr.org/2019/706)
-- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCGIKRS19](https://eprint.iacr.org/2019/1159)
-- Efficient Pseudorandom Correlation Generators: Silent OT Extension and More, 2019, [BCGIKRS19](https://eprint.iacr.org/2019/448)
-- Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection, 2017, [OOS17](https://eprint.iacr.org/2016/933)
-- Improved Private Set Intersection against Malicious Adversaries, 2016, [RR16](https://eprint.iacr.org/2016/746)
-- Efficient Batched Oblivious PRF with Applications to Private Set Intersection, 2016, [KKRT16](https://eprint.iacr.org/2016/799)
-- Actively Secure OT Extension with Optimal Overhead, 2015, [KOS15](https://eprint.iacr.org/2015/546)
-- High Performance Multi-Party Computation for Binary Circuits Based on Oblivious Transfer, 2015, [BLNNOOSS15](https://eprint.iacr.org/2015/472)
-- The Simplest Protocol for Oblivious Transfer, 2015, [CO15](https://eprint.iacr.org/2015/267)
-- More Efficient Oblivious Transfer and Extensions for Faster Secure Computation, 2015, [ALSZ15](https://eprint.iacr.org/2013/552)
-- Extending Oblivious Transfers Efficiently, 2003, [IKNP03](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf)
+> OT: Oblivious Transfer  
+> 1-out-of-2 base OT and OT Extensions
 
-### 1.3. (vector) Oblivious Linear Evaluation (OLE/vOLE)
+- The Rise of Paillier: Homomorphic Secret Sharing and Public-Key Silent OT  
+  *Claudio Orlandi, Peter Scholl, Sophia Yakoubov*  
+  EuroCrypt 2021, [eprint](https://eprint.iacr.org/2021/262), OSY21
+
+- Batching Base Oblivious Transfers  
+  *Ian McQuoid, Mike Rosulek, Lawrence Roy*  
+  AsiaCrypt 2021, [eprint](https://eprint.iacr.org/2021/682), MRR21
+
+- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation  
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, Peter Scholl*  
+  CCS 2019, [eprint](https://eprint.iacr.org/2019/1159), BCGI+19 (with Peter Rindal)
+  
+- Endemic Oblivious Transfer  
+  *Daniel Masny, Peter Rindal*  
+  CCS 2019, [eprint](https://eprint.iacr.org/2019/706), MR19 
+  
+- Efficient Pseudorandom Correlation Generators: Silent OT Extension and More  
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Scholl*  
+  Crypto 2019, [eprint](https://eprint.iacr.org/2019/448), BCGI+19 (without Peter Rindal)
+
+- Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection  
+  *Michele Orrù, Emmanuela Orsini, Peter Scholl*  
+  CT-RSA 2017, [eprint](https://eprint.iacr.org/2016/933), OOS17
+
+- Actively Secure OT Extension with Optimal Overhead  
+  *Marcel Keller, Emmanuela Orsini, Peter Scholl*  
+  Crypto 2015, [eprint](https://eprint.iacr.org/2015/546), KOS15
+  
+- The Simplest Protocol for Oblivious Transfer  
+  *Tung Chou, Claudio Orlandi*  
+  LatinCrypt 2015, [eprint](https://eprint.iacr.org/2015/267), CO15
+  
+- More Efficient Oblivious Transfer and Extensions for Faster Secure Computation  
+  *Gilad Asharov, Yehuda Lindell, Thomas Schneider, Michael Zohner*  
+  CCS 2013, [eprint](https://eprint.iacr.org/2013/552), ALSZ13
+  
+- Extending Oblivious Transfers Efficiently  
+  *Yuval Ishai, Joe Kilian, Kobbi Nissim, Erez Petrank*  
+  Crypto 2003, [eprint](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf), IKNP03
+
+### vOLE
 
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021, [CRR21](https://eprint.iacr.org/2021/1150)
 - Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
@@ -47,8 +93,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017, [DGNNT17](https://eprint.iacr.org/2017/790)
 - Oblivious Transfer and Polynomial Evaluation, 1999, [NP99](https://dl.acm.org/doi/pdf/10.1145/301250.301312)
 
-
-### 1.4. Private Set Intersection (PSI)
+### OPRF
 
 - Compact and Malicious Private Set Intersection for Small Sets, 2021, [RT21](https://eprint.iacr.org/2021/1159)
 - Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)
@@ -71,7 +116,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Information Sharing Across Private Databases, 2003, [AES03]
 
 
-### 1.5. Private Information Retrieval (PIR) 
+### PIR
 
 - **OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)**
 - **On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)**
@@ -92,7 +137,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Replication is NOT needed: SINGLE database, computationally- private information retrieval, 1997, [KO97](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf)
 
 
-### 1.6. Private Function Evaluation (PFE) (focusing on circuit privacy)
+### PFE
 
 - Linear-Complexity Private Function Evaluation is Practical, 2020, [HKRS20](https://eprint.iacr.org/2020/853)
 - An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates, 2019, [BBKL19](https://eprint.iacr.org/2017/415)
@@ -106,7 +151,7 @@ In this part, we summaries few primitives and protocols in MPC.
 - Selective private function evaluation with applications to private statistics, 2001, [CIKR01+](https://dl.acm.org/doi/10.1145/383962.384047)
 
 
-### 1.7. Function Secret Sharing (FSS) 
+### FSS
 
 - **Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)**
 - **Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)**
@@ -125,14 +170,14 @@ In this part, we summaries few primitives and protocols in MPC.
 - Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
 
 
-### 1.8. Semi-honest Generic Protocols
+### Semi-honest MPC
 
 - The Round Complexity of Secure Protocols, 1990, [BMR90](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
 - Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, 1988, [BGW88](https://dl.acm.org/doi/10.1145/62212.62213)
 - How to play any mental game? 1987, [GMW87](https://dl.acm.org/doi/10.1145/28395.28420)
 - How to generate and exchange secrets? 1986, [Yao86](https://ieeexplore.ieee.org/document/4568207)
 
-### 1.9. Malicious Generic Protocols
+### Malicious MPC
 
 - MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP, 2021, [CKLM+21](https://eprint.iacr.org/2021/1383)
 - Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption, 2019, [OSVJ19](https://eprint.iacr.org/2019/153)
@@ -146,13 +191,13 @@ In this part, we summaries few primitives and protocols in MPC.
 - A new approach to practical active-secure two-party computation, 2011, [NNOB11](https://eprint.iacr.org/2011/091)
 
 
-## 2. Lattice
+## Lattice
 
-### 2.1. Summaries and Talks
+### Summaries and Talks
 
 - Crypto Innovation School 2019, [link](https://crypto.sjtu.edu.cn/cis2019/)
 
-### 2.2. Homomorphic Encryption (HE)
+### HE
 
 - Homomorphic Encryption for Arithmetic of Approximate Numbers, 2016, [CKKS16](https://eprint.iacr.org/2016/421)
 - Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, 2013, [GSW13](https://eprint.iacr.org/2013/340)
