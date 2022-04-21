@@ -1,6 +1,6 @@
 # awesome-secure-computation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo is a paper summary for cryptography-based secure computation, including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption (or Lattice)*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
+This repo is a paper summary for cryptography-based secure computation papers (I prefer published papers 😛), including topics like [*Multiparty Computation*](https://en.wikipedia.org/wiki/Secure_multi-party_computation), [*Homomorphic Encryption (or Lattice)*](https://en.wikipedia.org/wiki/Homomorphic_encryption) and [*Differential Privacy*](https://en.wikipedia.org/wiki/Differential_privacy). If you are looking for hardware solutions like Trusted Platform Module (TPM), or Trusted Execution Environment (TEE), I'm sorry this repo is not what you're looking for :(.
 
 Here's a good place to ask questions about cryptography/cryptanalysis, or answering one (if you are capable of doing so): [https://crypto.stackexchange.com/](https://crypto.stackexchange.com/), and finding papers [Cryptology ePrint Archive](https://eprint.iacr.org/).
 
@@ -16,7 +16,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   * [Summaries and Talks](#summaries-and-talks)
   * [OT](#ot)
   * [OLE/vOLE](#vole)
-  * [OPRF](#oprf)
+  * [OPRF and PSI](#oprf-and-psi)
   * [PIR](#pir)
   * [PFE](#pfe)
   * [FSS](#fss)
@@ -86,67 +86,191 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   *Yuval Ishai, Joe Kilian, Kobbi Nissim, Erez Petrank*  
   Crypto 2003, [eprint](https://www.iacr.org/archive/crypto2003/27290145/27290145.pdf), IKNP03
 
+- Oblivious Transfer and Polynomial Evaluation  
+  *Moni Naor, Benny Pinkas*  
+  STOC 1999, [eprint](https://dl.acm.org/doi/pdf/10.1145/301250.301312), NP99
+
 ### vOLE
 
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
   *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
   Crypto 2021, [eprint](https://eprint.iacr.org/2021/1150), CRR21
   
-- Two-Round Oblivious Linear Evaluation from Learning with Errors
-  *Pedro Branco, Nico Döttling, Paulo Mateus*
+- Two-Round Oblivious Linear Evaluation from Learning with Errors  
+  *Pedro Branco, Nico Döttling, Paulo Mateus*  
   PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM20
 
-- Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, 2021, [CRR21](https://eprint.iacr.org/2021/1150)
-- Two-Round Oblivious Linear Evaluation from Learning with Errors, 2020, [BDM20](https://eprint.iacr.org/2020/635)
-- Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE, 2020, [BEPST20](https://eprint.iacr.org/2020/970)
-- Distributed vector-OLE: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
-- Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
-- Maliciously secure oblivious linear function evaluation with constant overhead, 2017, [GNN17](https://eprint.iacr.org/2017/409)
-- TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017, [DGNNT17](https://eprint.iacr.org/2017/790)
-- Oblivious Transfer and Polynomial Evaluation, 1999, [NP99](https://dl.acm.org/doi/pdf/10.1145/301250.301312)
+- Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE  
+  *Carsten Baum, Daniel Escudero, Alberto Pedrouzo-Ulloa, Peter Scholl, Juan Ramón Troncoso-Pastoriza*  
+  SCN 2020, [eprint](https://eprint.iacr.org/2020/970), BEPS+20
 
-### OPRF
+- Distributed vector-OLE: Improved constructions and implementation  
+  *Phillipp Schoppmann, Adrià Gascón, Leonie Reichert, Mariana Raykova*  
+  CCS 2019, [eprint](https://eprint.iacr.org/2019/1084), SGRR19
 
-- Compact and Malicious Private Set Intersection for Small Sets, 2021, [RT21](https://eprint.iacr.org/2021/1159)
-- Simple, Fast Malicious Multiparty Private Set Intersection, 2021, [NTY21](https://eprint.iacr.org/2021/1221)
-- The Apple PSI System, 2021, [BBMT21+](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
-- Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF, 2021, [CGS21](https://eprint.iacr.org/2021/034)
-- VOLE-PSI : Fast OPRF and Circuit-PSI from Vector-OLE, 2021, [RS21](https://eprint.iacr.org/2021/266)
-- Private Set Operations from Oblivious Switching, 2021, [GMRS21](https://eprint.iacr.org/2021/243)
-- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication, 2021, [CMBD+21](https://eprint.iacr.org/2021/1116)
-- Private Matching for Compute, 2020, [BKMSTV20](https://eprint.iacr.org/2020/599)
-- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019, [PRTY19](https://eprint.iacr.org/2019/634)
-- Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF, 2020, [CM20](https://eprint.iacr.org/2020/729)
-- PIR-PSI: Scaling Private Contact Discovery, 2018, [DRRT18](https://eprint.iacr.org/2018/579)
-- Malicious-Secure private set intersection via dual execution, 2017, [RR17](https://eprint.iacr.org/2017/769)
-- Improved private set intersection against malicious adversaries, 2016, [RR16](https://eprint.iacr.org/2016/746)
-- Efficient batched oblivious PRF with applications to private set intersection, 2016, [KKRT16](https://eprint.iacr.org/2016/799)
-- Phasing : Private Set Intersection using Permutation-based Hashing, 2015,[PSSZ15](https://eprint.iacr.org/2015/634)
-- Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
-- Linear-complexity private set intersection protocols secure in malicious model, 2010, [CKT10](https://eprint.iacr.org/2010/469)
-- Practical Private Set Intersection Protocols with Linear Computational and Bandwidth Complexity, 2010, [CT10]
-- Information Sharing Across Private Databases, 2003, [AES03]
+- Compressing vector OLE  
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai*  
+  CCS 2018, [eprint](https://eprint.iacr.org/2019/273), BCGI18
+  
+- Maliciously secure oblivious linear function evaluation with constant overhead  
+  *Satrajit Ghosh, Jesper Buus Nielsen, Tobias Nilges*  
+  AsiaCrypt 2017, [eprint](https://eprint.iacr.org/2017/409), GNN17
+
+- TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017,   
+  *Nico Döttling, Satrajit Ghosh, Jesper Buus Nielsen, Tobias Nilges, Roberto Trifiletti*  
+  CCS 2017, [eprint](https://eprint.iacr.org/2017/790), DGNN+17
+
+- Oblivious Transfer and Polynomial Evaluation  
+  *Moni Naor, Benny Pinkas*  
+  STOC 1999, [eprint](https://dl.acm.org/doi/pdf/10.1145/301250.301312), NP99
+
+### OPRF and PSI
+
+- (Industry) The Apple PSI System  
+  [analysis](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
+
+- Circuit-PSI with Linear Complexity via Relaxed Batch OPPRF  
+  *Nishanth Chandran, Divya Gupta, Akash Shah*  
+  PETS 2022, [eprint](https://eprint.iacr.org/2021/034), CGS22
+
+- Compact and Malicious Private Set Intersection for Small Sets  
+  *Mike Rosulek, Ni Trieu*  
+  CCS 2021, [eprint](https://eprint.iacr.org/2021/1159), RT21
+
+- Simple, Fast Malicious Multiparty Private Set Intersection  
+  *Ofri Nevo, Ni Trieu, Avishay Yanai*  
+  CCS 2021, [eprint](https://eprint.iacr.org/2021/1221), NTY21
+
+- Labeled PSI from Homomorphic Encryption with Reduced Computation and Communication  
+  *Kelong Cong, Radames Cruz Moreno, Mariana Botelho da Gama, Wei Dai, Ilia Iliashenko, Kim Laine, Michael Rosenberg*  
+  CCS 2021, [eprint](https://eprint.iacr.org/2021/1116), CMBD+21
+
+- VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE  
+  *Peter Rindal, Phillipp Schoppmann*  
+  EuroCrypt 2021, [eprint](https://eprint.iacr.org/2021/266), RS21
+
+- Private Set Operations from Oblivious Switching  
+  *Gayathri Garimella, Payman Mohassel, Mike Rosulek, Saeed Sadeghian, Jaspal Singh*  
+  PKC 2021, [eprint](https://eprint.iacr.org/2021/243), GMRS21
+
+- Private Matching for Compute  
+  *Prasad Buddhavarapu, Andrew Knox, Payman Mohassel, Shubho Sengupta, Erik Taubeneck, Vlad Vlaskin*  
+  Unpublished 2020, [eprint](https://eprint.iacr.org/2020/599)
+
+- Private Set Intersection in the Internet Setting From Lightweight Oblivious PRF  
+  *Melissa Chase, Peihan Miao*  
+  Crypto 2020, [eprint](https://eprint.iacr.org/2020/729), CM20
+
+- SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, 2019,   
+  *Benny Pinkas, Mike Rosulek, Ni Trieu, Avishay Yanai*  
+  Crypto 2019, [eprint](https://eprint.iacr.org/2019/634), PRTY19
+
+- PIR-PSI: Scaling Private Contact Discovery  
+  *Daniel Demmler, Peter Rindal, Mike Rosulek, Ni Trieu*  
+  PETS 2018, [eprint](https://eprint.iacr.org/2018/579), DRRT18
+
+- Malicious-Secure Private Set Intersection via Dual Execution  
+  *Peter Rindal, Mike Rosulek*  
+  CCS 2017, [eprint](https://eprint.iacr.org/2017/769), RR17b 
+
+- Improved Private Set Intersection Against Malicious Adversaries  
+  *Peter Rindal, Mike Rosulek*  
+  EuroCrypt 2017, [eprint](https://eprint.iacr.org/2016/746), RR17a
+
+- Efficient Batched Oblivious PRF with Applications to Private Set Intersection  
+  *Vladimir Kolesnikov, Ranjit Kumaresan, Mike Rosulek, Ni Trieu*  
+  CCS 2016, [eprint](https://eprint.iacr.org/2016/799), KKRT16
+
+- Phasing: Private Set Intersection using Permutation-based Hashing  
+  *Benny Pinkas, Thomas Schneider, Gil Segev, Michael Zohner*  
+  Usenix Security 2015, [eprint](https://eprint.iacr.org/2015/634), PSSZ15
+  
+- Private Set Intersection: Are Garbled Circuits Better than Custom Protocols  
+  *Yan Huang, David Evans, Jonathan Katz*  
+  NDSS 2012, [eprint](https://www.cs.umd.edu/~jkatz/papers/psi.pdf), HEK12
+
+- Linear-Complexity Private Set Intersection Protocols Secure in Malicious Model  
+  *Emiliano De Cristofaro, Jihye Kim, Gene Tsudik*  
+  AsiaCrypt 2010, [eprint](https://eprint.iacr.org/2010/469), CKT10
+
+- Practical Private Set Intersection Protocols with Linear Computational and Bandwidth Complexity  
+  *Emiliano De Cristofaro, Gene Tsudik*  
+  Unpublished 2010, [eprint](https://eprint.iacr.org/2009/491), CT10
+
+- Information Sharing Across Private Databases  
+  *Rakesh Agrawal, Alexandre V. Evfimievski, Ramakrishnan Srikant*  
+  SIGMOD 2003, [eprint](https://www.cs.cornell.edu/aevf/research/SIGMOD_2003.pdf), AES03
 
 
 ### PIR
 
-- **OnionPIR: Response Efficient Single-Server PIR, 2021, [MCR21](https://eprint.iacr.org/2021/1081)**
-- **On the Security of Doubly Efficient PIR, 2021, [BHMW21](https://eprint.iacr.org/2021/1113)**
-- **Private Information Retrieval with Sublinear Online Time (highly recommended)**, 2020, [GK20](https://eprint.iacr.org/2019/1075)
-- Batched Differentially Private Information Retrieval, 2020, [AIVG20](https://eprint.iacr.org/2020/1596.pdf)
-- Random-index PIR with Applications to Large-Scale Secure MPC, 2020, [GHMN20+](https://eprint.iacr.org/2020/1248)
-- Communication Computation Trade-offs in PIR, 2019, [ALPRS19+](https://eprint.iacr.org/2019/1483)
-- PIR with compressed queries and amortized query processing, 2018, [ACLS18+](https://eprint.iacr.org/2017/1142)
-- Private Stateful Information Retrieval, 2018, [PPY18](https://eprint.iacr.org/2018/1083)
-- Can We Access a Database Both Locally and Privately? 2017, [BIPW17](https://eprint.iacr.org/2017/567)
-- Towards Doubly Efficient Private Information Retrieval, 2017, [CHR17](https://eprint.iacr.org/2017/568)
-- XPIR : Private Information Retrieval for Everyone, 2016, [MBFK16](https://eprint.iacr.org/2014/1025)
-- Optimal Rate Private Information Retrieval from Homomorphic Encryption, 2015, [KLLP15+](https://petsymposium.org/2015/papers/23_Kiayias.pdf)
-- First CPIR Protocol with Data-Dependent Computation, 2009, [LIP09](https://dl.acm.org/doi/10.5555/1883749.1883769)
-- An Oblivious Transfer Protocol with Log-Squared Communication, 2005, [LIP05](https://eprint.iacr.org/2004/063)
-- Single-database private information retrieval with constant communication rate, 2005, [GR05](https://www.cs.umd.edu/~gasarch/TOPICS/pir/logn.pdf)
-- A new efficient all-or-nothing disclosure of secrets protocol, 1998, [Stern98](https://link.springer.com/content/pdf/10.1007%2F3-540-49649-1_28.pdf)
-- Replication is NOT needed: SINGLE database, computationally- private information retrieval, 1997, [KO97](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf)
+- OnionPIR: Response Efficient Single-Server PIR  
+  *Muhammad Haris Mughees, Hao Chen, Ling Ren*  
+  CCS 2021, [eprint](https://eprint.iacr.org/2021/1081), MCR21
+
+- On the Security of Doubly Efficient PIR  
+  *Elette Boyle, Justin Holmgren, Fermi Ma, Mor Weiss*  
+  Report 2021, [eprint](https://eprint.iacr.org/2021/1113)
+
+- Random-index PIR with Applications to Large-Scale Secure MPC  
+  *Craig Gentry, Shai Halevi, Bernardo Magri, Jesper Buus Nielsen, Sophia Yakoubov*  
+  TCC 2021, [GHMN20+](https://eprint.iacr.org/2020/1248)
+
+- Private Information Retrieval with Sublinear Online Time  
+  *Henry Corrigan-Gibbs, Dmitry Kogan*  
+  EuroCrypt 2020, [eprint](https://eprint.iacr.org/2019/1075), GK20
+
+- Batched Differentially Private Information Retrieval  
+  *Kinan Dak Albab, Rawane Issa, Mayank Varia, Kalman Graffi*  
+  Unpublished 2020, [eprint](https://eprint.iacr.org/2020/1596.pdf), AIVG20
+
+- Communication Computation Trade-offs in PIR  
+  *Asra Ali, Tancrède Lepoint, Sarvar Patel, Mariana Raykova, Phillipp Schoppmann, Karn Seth, Kevin Yeo*  
+  Usenix Security 2019, [eprint](https://eprint.iacr.org/2019/1483), ALPR+19
+
+- PIR with Compressed Queries and Amortized Query Processing  
+  *Sebastian Angel, Hao Chen, Kim Laine, Srinath T. V. Setty*  
+  SP 2018, [eprint](https://eprint.iacr.org/2017/1142), ACLS+18
+
+- Private Stateful Information Retrieval  
+  *Sarvar Patel, Giuseppe Persiano, Kevin Yeo*  
+  CCS 2018, [eprint](https://eprint.iacr.org/2018/1083), PPY18
+
+- Can We Access a Database Both Locally and Privately?  
+  *Elette Boyle, Yuval Ishai, Rafael Pass, Mary Wootters*  
+  TCC 2017, [eprint](https://eprint.iacr.org/2017/567), BIPW17
+
+- Towards Doubly Efficient Private Information Retrieval  
+  *Ran Canetti, Justin Holmgren, Silas Richelson*  
+  TCC 2017, [eprint](https://eprint.iacr.org/2017/568), CHR17
+
+- XPIR : Private Information Retrieval for Everyone  
+  *Carlos Aguilar Melchor, Joris Barrier, Laurent Fousse, Marc-Olivier Killijian*  
+  PETS 2016, [eprint](https://eprint.iacr.org/2014/1025), MBFK16
+
+- Optimal Rate Private Information Retrieval from Homomorphic Encryption  
+  *Aggelos Kiayias, Nikos Leonardos, Helger Lipmaa, Kateryna Pavlyk, Qiang Tang*  
+  PETS 2015, [eprint](https://petsymposium.org/2015/papers/23_Kiayias.pdf), KLLP+15
+
+- First CPIR Protocol with Data-Dependent Computation  
+  *Helger Lipmaa*  
+  ICISC 2009, [eprint](https://dl.acm.org/doi/10.5555/1883749.1883769), LIP09
+
+- An Oblivious Transfer Protocol with Log-Squared Communication   
+  *Helger Lipmaa*  
+  ISC 2005, [eprint](https://eprint.iacr.org/2004/063), LIP05
+
+- Single-Database Private Information Retrieval with Constant Communication Rate  
+  *Craig Gentry, Zulfikar Ramzan*  
+  ICALP 2005, [eprint](https://www.cs.umd.edu/~gasarch/TOPICS/pir/logn.pdf), GR05
+
+- A New Efficient All-Or-Nothing Disclosure of Secrets Protocol  
+  *Julien P. Stern*  
+  AsiaCrypt 1998, [eprint](https://link.springer.com/content/pdf/10.1007%2F3-540-49649-1_28.pdf), Stern98
+
+- Replication is NOT needed: SINGLE database, computationally- private information retrieval  
+  *Eyal Kushilevitz, Rafail Ostrovsky*  
+  FOCS 1997, [eprint](https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf), KO97
 
 
 ### PFE
