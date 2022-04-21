@@ -10,7 +10,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 - [Crypto21: Mentoring Videos about how to do research in cryptography](https://mentor-crypto-2021.github.io/)
 
-## Table of contents
+## Table of Contents (or Papers)
 
 - [MPC](#mpc)
   * [Summaries and Talks](#summaries-and-talks)
