@@ -185,7 +185,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   *Benny Pinkas, Thomas Schneider, Gil Segev, Michael Zohner*  
   Usenix Security 2015, [eprint](https://eprint.iacr.org/2015/634), PSSZ15
   
-- Private Set Intersection: Are Garbled Circuits Better than Custom Protocols  
+- Private Set Intersection: Are Garbled Circuits Better than Custom Protocols?
   *Yan Huang, David Evans, Jonathan Katz*  
   NDSS 2012, [eprint](https://www.cs.umd.edu/~jkatz/papers/psi.pdf), HEK12
 
@@ -214,7 +214,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 - Random-index PIR with Applications to Large-Scale Secure MPC  
   *Craig Gentry, Shai Halevi, Bernardo Magri, Jesper Buus Nielsen, Sophia Yakoubov*  
-  TCC 2021, [GHMN20+](https://eprint.iacr.org/2020/1248)
+  TCC 2021, [eprint](https://eprint.iacr.org/2020/1248), GHMN+20
 
 - Private Information Retrieval with Sublinear Online Time  
   *Henry Corrigan-Gibbs, Dmitry Kogan*  
@@ -275,56 +275,136 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 ### PFE
 
-- Linear-Complexity Private Function Evaluation is Practical, 2020, [HKRS20](https://eprint.iacr.org/2020/853)
-- An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates, 2019, [BBKL19](https://eprint.iacr.org/2017/415)
-- Highly Efficient and Reusable Private Function Evaluation with Linear Complexity, 2018, [BBKL18](https://eprint.iacr.org/2018/515)
-- Private Function Evaluation for MPC, 2015, [Pullonen15](https://eprint.iacr.org/2013/137)
-- Actively Secure Private Function Evaluation, 2014, [MSS14](https://eprint.iacr.org/2014/102)
-- How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation, 2013, [MS13](https://eprint.iacr.org/2013/137)
-- Private set intersection: Are garbled circuits better than custom protocols, 2012, [HEK12](https://www.cs.umd.edu/~jkatz/papers/psi.pdf)
-- Constant-round private function evaluation with linear complexity, 2011, [KM11](https://eprint.iacr.org/2010/528)
-- Bureaucratic protocols for secure two-party sorting, selection, and permuting, 2010, [WLGD10+](https://dl.acm.org/doi/10.1145/1755688.1755716)
-- Selective private function evaluation with applications to private statistics, 2001, [CIKR01+](https://dl.acm.org/doi/10.1145/383962.384047)
+- Linear-Complexity Private Function Evaluation is Practical  
+  *Marco Holz, Ágnes Kiss, Deevashwer Rathee, Thomas Schneider*  
+  ESORICS 2020, [eprint](https://eprint.iacr.org/2020/853), HKRS20
+
+- An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates  
+  *Muhammed Ali Bingöl, Osman Biçer, Mehmet Sabir Kiraz, Albert Levi*  
+  Comput. J 2019, [eprint](https://eprint.iacr.org/2017/415), BBKL19
+
+- Highly Efficient and Reusable Private Function Evaluation with Linear Complexity  
+  *Osman Biçer, Muhammed Ali Bingöl, Mehmet Sabir Kiraz*  
+  Unpublished 2018, [eprint](https://eprint.iacr.org/2018/515), BBKL18
+
+- Actively Secure Private Function Evaluation  
+  *Payman Mohassel, Seyed Saeed Sadeghian, Nigel P. Smart*  
+  AsiaCrypt 2014, [eprint](https://eprint.iacr.org/2014/102), MSS14
+
+- How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation  
+  *Payman Mohassel, Seyed Saeed Sadeghian*  
+  EuroCrypt 2013, [eprint](https://eprint.iacr.org/2013/137), MS13
+
+- Constant-round private function evaluation with linear complexity  
+  *Jonathan Katz, Lior Malka*  
+  AsiaCrypt 2011, [eprint](https://eprint.iacr.org/2010/528), KM11
+
+- Bureaucratic protocols for secure two-party sorting, selection, and permuting  
+  *Guan Wang, Tongbo Luo, Michael T. Goodrich, Wenliang Du, Zutao Zhu*  
+  AsiaCCS 2010, [eprint](https://dl.acm.org/doi/10.1145/1755688.1755716), WLGD+10
+
+- Selective private function evaluation with applications to private statistics  
+  *Ran Canetti, Yuval Ishai, Ravi Kumar, Michael K. Reiter, Ronitt Rubinfeld, Rebecca N. Wright*  
+  PODC 2001, [eprint](https://dl.acm.org/doi/10.1145/383962.384047), CIKR+01
 
 
 ### FSS
 
-- **Lightweight, Verifiable Function Secret Sharing and its Applications, 2021, [CP21](https://eprint.iacr.org/2021/580)**
-- **Lightweight Techniques for Private Heavy Hitters, 2021, [BBGG21+](https://arxiv.org/abs/2012.14884)**
-- **The Rise of Paillier : Homomorphic Secret Sharing and Public-Key Silent OT, 2021, [OSY21](https://eprint.iacr.org/2021/262)**
-- **Sublinear GMW-Style Compiler for MPC with Preprocessing, 2021, [BGIN21](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)**
-- **Low-Complexity Weak Pseudorandom Functions in AC0 [MOD 2], 2021**
-- **Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing, 2021, [DILO+21](https://eprint.iacr.org/2020/1599)**
-- Correlated Pseudorandom Functions from Variable-Density LPN, 2020, [BCG+20a](https://eprint.iacr.org/2020/1417)
-- Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, 2020, [BCG+20b](https://eprint.iacr.org/2020/1392)
-- Secure Computation with Preprocessing via Function Secret Sharing, 2019, [BGI19](https://eprint.iacr.org/2019/1095)
-- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation, 2019, [BCG+19](https://eprint.iacr.org/2019/1159)
-- Distributed vector-ole: Improved constructions and implementation, 2019, [SGRR19](https://eprint.iacr.org/2019/1084)
-- Compressing vector OLE, 2018, [BCGI18](https://eprint.iacr.org/2019/273)
-- Function Secret Sharing, 2016, [BGI16a](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf)
-- Function secret sharing: Improvements and extensions, 2016, [BGI16b](https://eprint.iacr.org/2018/707)
-- Distributed point functions and their applications, 2014, [GI19](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf)
+- Lightweight Techniques for Private Heavy Hitters  
+  *Dan Boneh, Elette Boyle, Henry Corrigan-Gibbs, Niv Gilboa, Yuval Ishai*  
+  SP 2021, [eprint](https://arxiv.org/abs/2012.14884), BBGG+21
 
+- Function Secret Sharing for PSI-CA : With Applications to Private Contact Tracing  
+  *Samuel Dittmer, Yuval Ishai, Steve Lu, Rafail Ostrovsky, Mohamed Elsabagh, Nikolaos Kiourtis, Brian Schulte, Angelos Stavrou*  
+  Unpublished 2021, [eprint](https://eprint.iacr.org/2020/1599), DILO+21
+
+- Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation  
+  *Elette Boyle, Nishanth Chandran, Niv Gilboa, Divya Gupta, Yuval Ishai, Nishant Kumar, Mayank Rathee*  
+  EuroCrypt 2021, [eprint](https://eprint.iacr.org/2020/1392), BCGI+21
+
+- Correlated Pseudorandom Functions from Variable-Density LPN  
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Scholl*  
+  FOCS 2020, [eprint](https://eprint.iacr.org/2020/1417), BCGI+20
+
+- Secure Computation with Preprocessing via Function Secret Sharing   
+  *Elette Boyle, Niv Gilboa, Yuval Ishai*  
+  TCC 2019, [eprint](https://eprint.iacr.org/2019/1095), BGI19
+
+- Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation  
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, Peter Scholl*  
+  CCS 2019, [eprint](https://eprint.iacr.org/2019/1159), BCGI+19
+
+- Function secret sharing: Improvements and extensions  
+  *Elette Boyle, Niv Gilboa, Yuval Ishai*  
+  CCS 2016, [eprint](https://eprint.iacr.org/2018/707), BGI16
+
+- Function Secret Sharing  
+  *Elette Boyle, Niv Gilboa, Yuval Ishai*  
+  EuroCrypt 2015, [eprint](https://www.iacr.org/archive/eurocrypt2015/90560300/90560300.pdf), BGI15
+
+- Distributed Point Functions and Their Applications  
+  *Niv Gilboa, Yuval Ishai*  
+  EuroCrypt 2014, [eprint](https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf), GI19
 
 ### Semi-honest MPC
 
-- The Round Complexity of Secure Protocols, 1990, [BMR90](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90)
-- Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation, 1988, [BGW88](https://dl.acm.org/doi/10.1145/62212.62213)
-- How to play any mental game? 1987, [GMW87](https://dl.acm.org/doi/10.1145/28395.28420)
-- How to generate and exchange secrets? 1986, [Yao86](https://ieeexplore.ieee.org/document/4568207)
+- The Round Complexity of Secure Protocols  
+  *Donald Beaver, Silvio Micali, Phillip Rogaway*  
+  STOC 1990, [eprint](http://web.cs.ucdavis.edu/~rogaway/papers/bmr90), BMR90
+  
+- Completeness Theorems for Non-Cryptographic Fault Tolerant Distributed Computation  
+  *Michael Ben-Or, Shafi Goldwasser, Avi Wigderson*  
+  STOC 1988, [eprint](https://dl.acm.org/doi/10.1145/62212.62213), BGW88
+
+- How to play any mental game?  
+  *Oded Goldreich, Silvio Micali, Avi Wigderson*  
+  STOC 1987, [eprint](https://dl.acm.org/doi/10.1145/28395.28420), GMW87
+  
+- How to generate and exchange secrets?  
+  *Andrew Chi-Chih Yao*  
+  FOCS 1986, [eprint](https://ieeexplore.ieee.org/document/4568207), Yao86
 
 ### Malicious MPC
 
-- MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP, 2021, [CKLM+21](https://eprint.iacr.org/2021/1383)
-- Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption, 2019, [OSVJ19](https://eprint.iacr.org/2019/153)
-- MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}, 2019, [CRFG19](https://eprint.iacr.org/2019/211)
-- New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning, 2019, [DEF19](https://eprint.iacr.org/2019/599)
-- Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ, 2019, [BCS19](https://eprint.iacr.org/2019/035)
-- SPDZ2k: Efficient MPC MOD 2k for dishonest majority, 2018, [SDESC18](https://eprint.iacr.org/2018/482)
-- Overdrive: Making SPDZ great again, 2017, [KPR17](https://eprint.iacr.org/2017/1230)
-- High-throughput secure three-party computation for malicious adversaries and an honest majority, 2016, [FLNW16](https://eprint.iacr.org/2016/944)
-- MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer Marcel, 2016, [KOS16](https://eprint.iacr.org/2016/505)
-- A new approach to practical active-secure two-party computation, 2011, [NNOB11](https://eprint.iacr.org/2011/091)
+- MHz2k: MPC from HE over Z2k with New Packing, Simpler Reshare, and Better ZKP  
+  *Jung Hee Cheon, Dongwoo Kim, Keewoo Lee*  
+  Crypto 2021, [eprint](https://eprint.iacr.org/2021/1383), CKLM+21
+
+- MonZa2k: Fast Maliciously Secure Two Party Computation on Z_{2^k}  
+  *Dario Catalano, Mario Di Raimondo, Dario Fiore, Irene Giacomelli*  
+  PKC 2020, [eprint](https://eprint.iacr.org/2019/211), CRFG20
+
+- Overdrive2k: Efficient Secure MPC over $Z_{2^k}$ from Somewhat Homomorphic Encryption  
+  *Emmanuela Orsini, Nigel P. Smart, Frederik Vercauteren*  
+  CT-RSA 2020, [eprint](https://eprint.iacr.org/2019/153), OSVJ19
+
+- New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning  
+  *Ivan Damgård, Daniel Escudero, Tore Kasper Frederiksen, Marcel Keller, Peter Scholl, Nikolaj Volgushev*  
+  SP 2019, [eprint](https://eprint.iacr.org/2019/599), DEF19
+
+- Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ  
+  *Carsten Baum, Daniele Cozzo, Nigel P. Smart*  
+  SAC 2019, [eprint](https://eprint.iacr.org/2019/035), BCS19
+
+- SPDZ2k: Efficient MPC MOD 2k for dishonest majority  
+  *Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, Chaoping Xing*  
+  Crypto 2018, [eprint](https://eprint.iacr.org/2018/482), SDES+18
+
+- Overdrive: Making SPDZ great again  
+  *Marcel Keller, Valerio Pastro, Dragos Rotaru*  
+  EuroCrypt 2018, [eprint](https://eprint.iacr.org/2017/1230), KPR18
+
+- High-throughput secure three-party computation for malicious adversaries and an honest majority  
+  *Jun Furukawa, Yehuda Lindell, Ariel Nof, Or Weinstein*  
+  EuroCrypt 2017, [eprint](https://eprint.iacr.org/2016/944), FLNW17
+
+- MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer  
+  *Marcel Keller, Emmanuela Orsini, Peter Scholl*  
+  CCS 2016, [eprint](https://eprint.iacr.org/2016/505), KOS16
+
+- A New Approach to Practical Active-Secure Two-Party Computation  
+  *Jesper Buus Nielsen, Peter Sebastian Nordholt, Claudio Orlandi, Sai Sheshank Burra*  
+  Crypto 2012, [eprint](https://eprint.iacr.org/2011/091), NNOB12
 
 
 ## Lattice
@@ -335,10 +415,24 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 ### HE
 
-- Homomorphic Encryption for Arithmetic of Approximate Numbers, 2016, [CKKS16](https://eprint.iacr.org/2016/421)
-- Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, 2013, [GSW13](https://eprint.iacr.org/2013/340)
-- Somewhat Practical Fully Homomorphic Encryption, 2012, [BFV12](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf)
-- Fully Homomorphic Encryption without Bootstrapping, 2011, [BGV11](https://eprint.iacr.org/2011/277.pdf)
-- Computing Arbitrary Functions of Encrypted Data, 2009, [Gen09](https://crypto.stanford.edu/craig/easy-fhe.pdf)
+- Homomorphic Encryption for Arithmetic of Approximate Numbers  
+  *Jung Hee Cheon, Andrey Kim, Miran Kim, Yong Soo Song*  
+  AsiaCrypt 2017, [eprint](https://eprint.iacr.org/2016/421), CKKS17
+
+- Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based  
+  *Craig Gentry, Amit Sahai, Brent Waters*  
+  Crypto 2013, [eprint](https://eprint.iacr.org/2013/340), GSW13
+
+- Somewhat Practical Fully Homomorphic Encryption  
+  *Junfeng Fan, Frederik Vercauteren*  
+  Unpublished 2012, [eprint](https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf), BFV12
+
+- Fully Homomorphic Encryption without Bootstrapping  
+  *Zvika Brakerski, Craig Gentry, Vinod Vaikuntanathan*  
+  Electron. Colloquium Comput. Complex. [eprint](https://eprint.iacr.org/2011/277.pdf), BGV11
+
+- Computing Arbitrary Functions of Encrypted Data  
+  *Craig Gentry*  
+  Commun. ACM 2009, [eprint](https://crypto.stanford.edu/craig/easy-fhe.pdf), Gen09
 
 
