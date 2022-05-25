@@ -10,6 +10,18 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 - [Crypto21: Mentoring Videos about how to do research in cryptography](https://mentor-crypto-2021.github.io/)
 
+**Texbooks**:
+
+- A Pragmatic Introduction to Secure Multi-Party Computation  
+  *David Evans, Vladimir Kolesnikov, and Mike Rosulek*  
+  [eprint](https://www.cs.virginia.edu/~evans/pragmaticmpc/pragmaticmpc.pdf) 
+- Foundations of Cryptography  
+  *Oded Goldreich*  
+  [link](https://www.wisdom.weizmann.ac.il/~oded/foc.html)
+- Introduction to Modern Cryptography
+  *Jonathan Katz and Yehuda Lindell*  
+  [link](http://www.cs.umd.edu/~jkatz/imc.html)
+
 ## Table of Contents (or Papers)
 
 - [MPC](#mpc)
