@@ -18,7 +18,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Foundations of Cryptography  
   *Oded Goldreich*  
   [link](https://www.wisdom.weizmann.ac.il/~oded/foc.html)
-- Introduction to Modern Cryptography
+- Introduction to Modern Cryptography  
   *Jonathan Katz and Yehuda Lindell*  
   [link](http://www.cs.umd.edu/~jkatz/imc.html)
 
