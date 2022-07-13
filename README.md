@@ -145,6 +145,10 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   *Nishanth Chandran, Divya Gupta, Akash Shah*  
   PETS 2022, [eprint](https://eprint.iacr.org/2021/034), CGS22
 
+- Oblivious Key-Value Stores and Amplification for Private Set Intersection  
+  *Gayathri Garimella, Benny Pinkas, Mike Rosulek, Ni Trieu, Avishay Yanai*  
+  Crypto 2021, [eprint](https://eprint.iacr.org/2021/883), GPRT+21
+
 - Compact and Malicious Private Set Intersection for Small Sets  
   *Mike Rosulek, Ni Trieu*  
   CCS 2021, [eprint](https://eprint.iacr.org/2021/1159), RT21
