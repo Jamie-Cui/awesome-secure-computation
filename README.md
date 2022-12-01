@@ -54,6 +54,10 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 > OT: Oblivious Transfer  
 > 1-out-of-2 base OT and OT Extensions
 
+- SoftSpokenOT: Quieter OT Extension from Small-Field Silent VOLE in the Minicrypt Model  
+  *Lawrence Roy*  
+  Crypt0 2022, [publisher](https://www.iacr.org/cryptodb//data/paper.php?pubkey=32258), Roy22
+
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
   *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
   Crypto 2021, [eprint](https://eprint.iacr.org/2021/1150), CRR21
