@@ -21,6 +21,13 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Introduction to Modern Cryptography  
   *Jonathan Katz and Yehuda Lindell*  
   [link](http://www.cs.umd.edu/~jkatz/imc.html)
+  
+**Open-source Tools (mostly C++)**:
+- [[secretflow/yacl]](https://github.com/secretflow/yacl): OT, OPRF (🤠 I participant in the development of yacl, so don't hesitate to contact me if you have any questions or suggestions)
+- [[emp-toolkit]](https://github.com/emp-toolkit): OT, ZKP, MPC
+- [[libOTe]](https://github.com/osu-crypto/libOTe): OT, VOLE
+- [[libPSI]](https://github.com/osu-crypto/libPSI): PSI
+- [[MP-SPDZ]](https://github.com/mc2-project/MP-SPDZ): Generic MPC
 
 ## Table of Contents (or Papers)
 
