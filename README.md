@@ -6,7 +6,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 **Useful Links**:
 
-- [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
+- [Security Conferences Ranking](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm) (By Prof. Guofei Gu)
 - [Security and Privacy Conference Deadlines](https://sec-deadlines.github.io/)
 - [Crypto21: Mentoring Videos about how to do research in cryptography](https://mentor-crypto-2021.github.io/)
 
@@ -29,7 +29,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [[libPSI]](https://github.com/osu-crypto/libPSI): PSI
 - [[MP-SPDZ]](https://github.com/mc2-project/MP-SPDZ): Generic MPC
 
-## Table of Contents (or Papers)
+## Table of Papers
 
 - [MPC](#mpc)
   * [Summaries and Talks](#summaries-and-talks)
