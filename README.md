@@ -14,16 +14,16 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 - A Pragmatic Introduction to Secure Multi-Party Computation  
   *David Evans, Vladimir Kolesnikov, and Mike Rosulek*  
-  [eprint](https://www.cs.virginia.edu/~evans/pragmaticmpc/pragmaticmpc.pdf) 
+  [eprint avaliable](https://www.cs.virginia.edu/~evans/pragmaticmpc/pragmaticmpc.pdf) 
 - Foundations of Cryptography  
   *Oded Goldreich*  
-  [link](https://www.wisdom.weizmann.ac.il/~oded/foc.html)
+  [author's notes](https://www.wisdom.weizmann.ac.il/~oded/foc.html)
 - Introduction to Modern Cryptography  
   *Jonathan Katz and Yehuda Lindell*  
-  [link](http://www.cs.umd.edu/~jkatz/imc.html)
-  
+  [author's notes](http://www.cs.umd.edu/~jkatz/imc.html)
+
 **Open-source Tools (mostly C++)**:
-- [[secretflow/yacl]](https://github.com/secretflow/yacl): OT, OPRF (🤠 I participant in the development of yacl, so don't hesitate to contact me if you have any questions or suggestions)
+- [[secretflow/yacl]](https://github.com/secretflow/yacl): OT, OPRF (🤠 I participant in the develop of yacl, so don't hesitate to contact me if you have any questions or suggestions)
 - [[emp-toolkit]](https://github.com/emp-toolkit): OT, ZKP, MPC
 - [[libOTe]](https://github.com/osu-crypto/libOTe): OT, VOLE
 - [[libPSI]](https://github.com/osu-crypto/libPSI): PSI
@@ -113,8 +113,15 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   *Moni Naor, Benny Pinkas*  
   STOC 1999, [eprint](https://dl.acm.org/doi/pdf/10.1145/301250.301312), NP99
 
-### vOLE
+### (s)(v)OLE
+- Two-Round Oblivious Linear Evaluation from Learning with Errors  
+	*Pedro Branco, Nico Do ̈ttling, Paulo Mateus*  
+	PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM22
 
+- Correlated Pseudorandomness from Expand-Accumulate Codes  
+	*Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Nicolas Resch, Peter Scholl*  
+	Crypto 2022, [eprint](https://eprint.iacr.org/2022/1014), BCG+22
+	
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
   *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
   Crypto 2021, [eprint](https://eprint.iacr.org/2021/1150), CRR21
@@ -122,15 +129,15 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Two-Round Oblivious Linear Evaluation from Learning with Errors  
   *Pedro Branco, Nico Döttling, Paulo Mateus*  
   PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM20
-
+  
 - Efficient Protocols for Oblivious Linear Function Evaluation from Ring-LWE  
   *Carsten Baum, Daniel Escudero, Alberto Pedrouzo-Ulloa, Peter Scholl, Juan Ramón Troncoso-Pastoriza*  
   SCN 2020, [eprint](https://eprint.iacr.org/2020/970), BEPS+20
-
+  
 - Distributed vector-OLE: Improved constructions and implementation  
   *Phillipp Schoppmann, Adrià Gascón, Leonie Reichert, Mariana Raykova*  
   CCS 2019, [eprint](https://eprint.iacr.org/2019/1084), SGRR19
-
+  
 - Compressing vector OLE  
   *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai*  
   CCS 2018, [eprint](https://eprint.iacr.org/2019/273), BCGI18
@@ -138,17 +145,33 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Maliciously secure oblivious linear function evaluation with constant overhead  
   *Satrajit Ghosh, Jesper Buus Nielsen, Tobias Nilges*  
   AsiaCrypt 2017, [eprint](https://eprint.iacr.org/2017/409), GNN17
-
+  
 - TinyOLE: Efficient actively secure two-party computation from oblivious linear function evaluation, 2017,   
   *Nico Döttling, Satrajit Ghosh, Jesper Buus Nielsen, Tobias Nilges, Roberto Trifiletti*  
   CCS 2017, [eprint](https://eprint.iacr.org/2017/790), DGNN+17
-
+  
 - Oblivious Transfer and Polynomial Evaluation  
   *Moni Naor, Benny Pinkas*  
   STOC 1999, [eprint](https://dl.acm.org/doi/pdf/10.1145/301250.301312), NP99
 
 ### OPRF and PSI
 
+- Improved Private Set Intersection for Sets with Small Entries  
+	*S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
+	PKC 2023, [eprint](https://eprint.iacr.org/2022/334)
+
+- Blazing Fast PSI from Improved OKVS and Subfield VOLE  
+ 	*Peter Rindal, Srinivasan Raghuraman*  
+	CCS 2022, [eprint](https://eprint.iacr.org/2022/320)
+	
+- Fully Secure PSI via MPC-in-the-Head  
+	*S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
+	Pets 2022, [eprint](https://eprint.iacr.org/2022/379)
+
+- PSI from Ring-OLE  
+	*Wutichai Chongchitmate, Yuval Ishai, Steve Lu, Rafail Ostrovsky*  
+	CCS 2022, [link](https://dl.acm.org/doi/abs/10.1145/3548606.3559378)
+	
 - (Industry) The Apple PSI System  
   [analysis](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
 
@@ -461,5 +484,3 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - Computing Arbitrary Functions of Encrypted Data  
   *Craig Gentry*  
   Commun. ACM 2009, [eprint](https://crypto.stanford.edu/craig/easy-fhe.pdf), Gen09
-
-
