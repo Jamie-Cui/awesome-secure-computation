@@ -29,19 +29,19 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [[libPSI]](https://github.com/osu-crypto/libPSI): PSI
 - [[MP-SPDZ]](https://github.com/mc2-project/MP-SPDZ): Generic MPC
 
-## Table of Papers
+## Contents
 
 - [MPC](mpc.md)
   * [Summaries and Talks](mpc.md/#summaries-and-talks)
-  * [OT](#ot)
-  * [OLE/vOLE](#vole)
-  * [OPRF and PSI](#oprf-and-psi)
-  * [PIR](#pir)
-  * [PFE](#pfe)
-  * [FSS](#fss)
-  * [Semi-honest MPC](#semi-honest-mpc)
-  * [Malicious MPC](#malicious-mpc)
-- [Lattice](#lattice)
+  * [OT](mpc.md/#ot)
+  * [OLE/vOLE](mpc.md/#vole)
+  * [OPRF and PSI](mpc.md/#oprf-and-psi)
+  * [PIR](mpc.md/#pir)
+  * [PFE](mpc.md/#pfe)
+  * [FSS](mpc.md/#fss)
+  * [Semi-honest MPC](mpc.md/#semi-honest-mpc)
+  * [Malicious MPC](mpc.md/#malicious-mpc)
+- [ZKP](zkp.md)
+- [Lattice (todo)](#lattice)
   * [Summaries and Talks](#summaries-and-talks-1)
   * [HE](#he)
-- [ZKP](zkp.md)
