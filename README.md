@@ -45,3 +45,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 - [Lattice (todo)]
   * [Summaries and Talks]
   * [HE]
+
+## License
+
+see [LICENSE](LICENSE).
