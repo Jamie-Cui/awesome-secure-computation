@@ -31,7 +31,7 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
 
 ## Table of Papers
 
-- [MPC](#mpc)
+- [MPC](mpc.md)
   * [Summaries and Talks](#summaries-and-talks)
   * [OT](#ot)
   * [OLE/vOLE](#vole)
