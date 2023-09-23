@@ -42,6 +42,6 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   * [Semi-honest MPC](mpc.md/#semi-honest-mpc)
   * [Malicious MPC](mpc.md/#malicious-mpc)
 - [ZKP](zkp.md)
-- [Lattice (todo)](#lattice)
-  * [Summaries and Talks](#summaries-and-talks-1)
-  * [HE](#he)
+- [Lattice (todo)]
+  * [Summaries and Talks]
+  * [HE]
