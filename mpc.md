@@ -68,12 +68,12 @@
 
 ## (s)(v)OLE
 - Two-Round Oblivious Linear Evaluation from Learning with Errors  
-	*Pedro Branco, Nico Do ̈ttling, Paulo Mateus*  
-	PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM22
+  *Pedro Branco, Nico Do ̈ttling, Paulo Mateus*  
+  PKC 2022, [eprint](https://eprint.iacr.org/2020/635), BDM22
 
 - Correlated Pseudorandomness from Expand-Accumulate Codes  
-	*Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Nicolas Resch, Peter Scholl*  
-	Crypto 2022, [eprint](https://eprint.iacr.org/2022/1014), BCG+22
+  *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Nicolas Resch, Peter Scholl*  
+  Crypto 2022, [eprint](https://eprint.iacr.org/2022/1014), BCG+22
 	
 - Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes  
   *Geoffroy Couteau, Peter Rindal, Srinivasan Raghuraman*  
@@ -110,20 +110,20 @@
 ## OPRF and PSI
 
 - Improved Private Set Intersection for Sets with Small Entries  
-	*S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
-	PKC 2023, [eprint](https://eprint.iacr.org/2022/334)
+  *S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
+  PKC 2023, [eprint](https://eprint.iacr.org/2022/334)
 
 - Blazing Fast PSI from Improved OKVS and Subfield VOLE  
- 	*Peter Rindal, Srinivasan Raghuraman*  
-	CCS 2022, [eprint](https://eprint.iacr.org/2022/320)
+  *Peter Rindal, Srinivasan Raghuraman*  
+  CCS 2022, [eprint](https://eprint.iacr.org/2022/320)
 	
 - Fully Secure PSI via MPC-in-the-Head  
-	*S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
-	Pets 2022, [eprint](https://eprint.iacr.org/2022/379)
+  *S. Dov Gordon, Carmit Hazay, Phi Hung Le*  
+  Pets 2022, [eprint](https://eprint.iacr.org/2022/379)
 
 - PSI from Ring-OLE  
-	*Wutichai Chongchitmate, Yuval Ishai, Steve Lu, Rafail Ostrovsky*  
-	CCS 2022, [link](https://dl.acm.org/doi/abs/10.1145/3548606.3559378)
+  *Wutichai Chongchitmate, Yuval Ishai, Steve Lu, Rafail Ostrovsky*  
+  CCS 2022, [link](https://dl.acm.org/doi/abs/10.1145/3548606.3559378)
 	
 - (Industry) The Apple PSI System  
   [analysis](https://www.apple.com/child-safety/pdf/Apple_PSI_System_Security_Protocol_and_Analysis.pdf)
