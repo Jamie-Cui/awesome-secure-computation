@@ -14,6 +14,10 @@
 > OT: Oblivious Transfer  
 > 1-out-of-2 base OT and OT Extensions
 
+- Half-Tree: Halving the Cost of Tree Expansion in COT and DPF  
+  *Xiaojie Guo, Kang Yang, Xiao Wang, Wenhao Zhang, Xiang Xie, Jiang Zhang, Zheli Liu*  
+  EUROCRYPT 2023, [eprint](https://eprint.iacr.org/2022/1431), GYWZ+23
+
 - SoftSpokenOT: Quieter OT Extension from Small-Field Silent VOLE in the Minicrypt Model  
   *Lawrence Roy*  
   Crypto 2022, [publisher](https://www.iacr.org/cryptodb//data/paper.php?pubkey=32258), Roy22
@@ -29,6 +33,10 @@
 - Batching Base Oblivious Transfers  
   *Ian McQuoid, Mike Rosulek, Lawrence Roy*  
   AsiaCrypt 2021, [eprint](https://eprint.iacr.org/2021/682), MRR21
+
+- Ferret: Fast Extension for coRRElated oT with small communication  
+  *Kang Yang, Chenkai Weng, Xiao Lan, Jiang Zhang, Xiao Wang*  
+  CCS'20, [eprint](https://eprint.iacr.org/2020/924), YWLZ+20
 
 - Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation  
   *Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, Peter Scholl*  
