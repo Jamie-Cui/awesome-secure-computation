@@ -41,10 +41,9 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   * [FSS](mpc.md/#fss)
   * [Semi-honest MPC](mpc.md/#semi-honest-mpc)
   * [Malicious MPC](mpc.md/#malicious-mpc)
-- [ZKP](zkp.md) Big shout out to xfaq!
-- [Lattice (todo)]
-  * [Summaries and Talks]
-  * [HE]
+- [ZKP](zkp.md)  
+  (Big shout out to [Austin Wu](https://github.com/xfap)!)
+- TODO [Lattice]
 
 ## License
 
