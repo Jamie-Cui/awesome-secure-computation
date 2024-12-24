@@ -23,9 +23,9 @@ Here's a good place to ask questions about cryptography/cryptanalysis, or answer
   [author's notes](http://www.cs.umd.edu/~jkatz/imc.html)
 
 **Open-source Tools (mostly in C++)**:
-- [[secretflow/yacl]](https://github.com/secretflow/yacl): OT, OPRF (🤠 I participant in the develop of yacl, so don't hesitate to contact me if you have any questions or suggestions)
-- [[emp-toolkit]](https://github.com/emp-toolkit): OT, ZKP, MPC
-- [[libOTe]](https://github.com/osu-crypto/libOTe): OT, VOLE
+- [[yacl-r]](https://github.com/Jamie-Cui/yacl-r): OT(e), OPRF, VOLE, PSI (DISCLAIMER: I participant in the develop of yacl and yacl-r)
+- [[emp-toolkit]](https://github.com/emp-toolkit): OT(e), ZKP, MPC
+- [[libOTe]](https://github.com/osu-crypto/libOTe): OT(e), VOLE
 - [[libPSI]](https://github.com/osu-crypto/libPSI): PSI
 - [[MP-SPDZ]](https://github.com/mc2-project/MP-SPDZ): Generic MPC
 
